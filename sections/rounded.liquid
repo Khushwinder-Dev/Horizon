@@ -1,0 +1,371 @@
+{%- comment -%}
+File name: rounded-image-cards.liquid
+Update: Moves label text OUTSIDE the circular image, placed just below each card.
+{%- endcomment -%}
+
+<div class="rounded-image-cards-section"
+     style="--card-size: {{ section.settings.card_size }}px;
+            --card-size-mobile: {{ section.settings.card_size_mobile }}px;
+            --card-radius: {{ section.settings.card_radius }}%;
+            --gap: {{ section.settings.gap }}px;
+            --text-size: {{ section.settings.text_size }}px;
+            --text-size-mobile: {{ section.settings.text_size_mobile }}px;
+            --text-color: {{ section.settings.text_color }};
+            --font-weight: {{ section.settings.font_weight }};
+            --padding-x: {{ section.settings.padding_x }}px;
+            --padding-y: {{ section.settings.padding_y }}px;
+            --border-width: {{ section.settings.border_width }}px;
+            --border-color: {{ section.settings.border_color }};
+            --text-transform: {{ section.settings.text_transform }};
+            --letter-spacing: {{ section.settings.letter_spacing }}px;
+            --heading-color: {{ section.settings.heading_color }};
+            --heading-gap: {{ section.settings.heading_gap }}px;
+            --heading-offset-x: {{ section.settings.heading_offset_x }}px;
+            --heading-offset-y: {{ section.settings.heading_offset_y }}px;">
+
+  {% if section.settings.heading_text != blank %}
+    <div class="ric-heading-wrap">
+      <h2 class="ric-heading">{{ section.settings.heading_text }}</h2>
+    </div>
+  {% endif %}
+
+  <div class="ric-wrapper">
+    {% for block in section.blocks %}
+      {% assign image = block.settings.image %}
+      {% if image != blank %}
+        <a
+          {% if block.settings.link != blank %}
+            href="{{ block.settings.link }}"
+          {% endif %}
+          class="ric-card"
+        >
+          <div class="ric-image"
+               style="background-image: url('{{ image | img_url: '600x600' }}');">
+          </div>
+
+          {% if block.settings.label != blank %}
+            <div class="ric-label">{{ block.settings.label }}</div>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.rounded-image-cards-section {
+  /* PRIMARY FONT: Roboto Serif for heading/body/button text */
+  font-family: "Roboto Serif", "Times New Roman", Times, serif;
+}
+
+/* Heading */
+.rounded-image-cards-section .ric-heading-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-x);
+  margin-top: var(--padding-y);
+  margin-bottom: var(--heading-gap);
+}
+
+.rounded-image-cards-section .ric-heading {
+  margin: 0;
+  text-align: center;
+  color: var(--heading-color);
+  font-family: "Roboto Serif", "Times New Roman", Times, serif;
+  font-weight: 600;
+  line-height: 1.1;
+  transform: translate(var(--heading-offset-x), var(--heading-offset-y));
+}
+
+/* Cards row */
+.rounded-image-cards-section .ric-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: var(--gap);
+  padding: var(--padding-y) var(--padding-x);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+/* Hide scrollbar for Chrome/Safari */
+.rounded-image-cards-section .ric-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Card container */
+.rounded-image-cards-section .ric-card {
+  text-decoration: none;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Serif", "Times New Roman", Times, serif;
+}
+
+/* Circle image */
+.rounded-image-cards-section .ric-image {
+  width: var(--card-size);
+  height: var(--card-size);
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--card-radius);
+  border: var(--border-width) solid var(--border-color);
+  position: relative;
+  display: block;
+  transition: transform .3s ease;
+  overflow: hidden;
+}
+
+{% if section.settings.enable_hover %}
+.rounded-image-cards-section .ric-card:hover .ric-image {
+  transform: scale(1.06);
+}
+{% endif %}
+
+/* Label BELOW the circle (outside the image box) */
+.rounded-image-cards-section .ric-label {
+  margin-top: 12px;
+  color: var(--text-color);
+  font-size: var(--text-size);
+  font-weight: var(--font-weight);
+  text-transform: var(--text-transform);
+  letter-spacing: var(--letter-spacing);
+  font-family: "Roboto Serif", "Times New Roman", Times, serif;
+
+  /* Better handling for long labels */
+  text-align: center;
+  max-width: var(--card-size);
+  line-height: 1.2;
+  white-space: normal;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .rounded-image-cards-section .ric-image {
+    width: var(--card-size-mobile);
+    height: var(--card-size-mobile);
+  }
+
+  .rounded-image-cards-section .ric-label {
+    font-size: var(--text-size-mobile);
+    max-width: var(--card-size-mobile);
+    margin-top: 10px;
+  }
+}
+</style>
+
+{% schema %}
+{
+  "name": "Rounded Image Cards",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Shop by recipient"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#C9A35D"
+    },
+    {
+      "type": "range",
+      "id": "heading_gap",
+      "label": "Space Below Heading (px)",
+      "min": 0,
+      "max": 120,
+      "step": 2,
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "heading_offset_x",
+      "label": "Heading Move Left/Right (px)",
+      "min": -120,
+      "max": 20,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "heading_offset_y",
+      "label": "Heading Move Up/Down (px)",
+      "min": -120,
+      "max": 20,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "card_size",
+      "label": "Card Diameter (px)",
+      "min": 120,
+      "max": 380,
+      "step": 10,
+      "default": 260
+    },
+    {
+      "type": "range",
+      "id": "card_size_mobile",
+      "label": "Mobile Card Diameter (px)",
+      "min": 80,
+      "max": 320,
+      "step": 10,
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "card_radius",
+      "label": "Card Border Radius (%)",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border Color",
+      "default": "#f7c9d8"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border Width (px)",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Card Gap (px)",
+      "min": 0,
+      "max": 80,
+      "step": 2,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_x",
+      "label": "Horizontal Padding (px)",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_y",
+      "label": "Vertical Padding (px)",
+      "min": 0,
+      "max": 60,
+      "step": 2,
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text Size (px)",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Mobile Text Size (px)",
+      "min": 8,
+      "max": 40,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "text",
+      "id": "font_weight",
+      "label": "Font Weight (CSS)",
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "letter_spacing",
+      "label": "Letter Spacing (px)",
+      "min": 0,
+      "max": 10,
+      "step": 0.5,
+      "default": 2
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text Transform",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "uppercase", "label": "Uppercase" },
+        { "value": "lowercase", "label": "Lowercase" }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "select",
+      "id": "label_font",
+      "label": "Label Font",
+      "options": [
+        { "value": "primary", "label": "Primary (Montserrat)" },
+        { "value": "secondary", "label": "Secondary (The Seasons)" }
+      ],
+      "default": "secondary"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_hover",
+      "label": "Enable Hover Zoom",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Card Image"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Card Text",
+          "default": "BLONDE"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Card Link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Rounded Image Cards",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
