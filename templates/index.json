@@ -1953,7 +1953,7 @@
                 "height": "fit",
                 "custom_height": 100,
                 "inherit_color_scheme": false,
-                "color_scheme": "scheme-7e975025-a553-4176-8750-2df406cf0a13",
+                "color_scheme": "scheme-0084c803-0273-4a5d-9652-033eb7ab2f34",
                 "background_media": "none",
                 "video_position": "cover",
                 "background_image_position": "cover",
@@ -2004,6 +2004,32 @@
               "block_order": [
                 "text_8iTyax"
               ]
+            },
+            "text_nLyNMR": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Medical-grade support engineered for the modern lifestyle. Realign your spine and reclaim your comfort with clinical precision.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             },
             "group_hWhQee": {
               "type": "group",
@@ -2211,6 +2237,7 @@
             "text_XUb7i6",
             "text_yGc9gm",
             "group_hCyRQx",
+            "text_nLyNMR",
             "group_hWhQee"
           ]
         },
