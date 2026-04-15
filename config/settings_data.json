@@ -393,7 +393,7 @@
       },
       "scheme-7e975025-a553-4176-8750-2df406cf0a13": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#ffffff00",
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#000000cf",
