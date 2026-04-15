@@ -2450,9 +2450,9 @@
           "settings": {
             "image": "shopify://shop_images/unnamed_1.png",
             "link": "",
-            "image_ratio": "adapt",
-            "width": "fill",
-            "custom_width": 100,
+            "image_ratio": "square",
+            "width": "custom",
+            "custom_width": 73,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
