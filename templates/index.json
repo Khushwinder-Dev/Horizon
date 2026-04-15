@@ -2452,7 +2452,7 @@
           "settings": {
             "image": "shopify://shop_images/unnamed.png",
             "link": "",
-            "image_ratio": "square",
+            "image_ratio": "landscape",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -2462,10 +2462,10 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 20,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "padding-block-start": 20,
+            "padding-block-end": 20,
+            "padding-inline-start": 20,
+            "padding-inline-end": 20
           },
           "blocks": {}
         },
