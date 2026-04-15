@@ -1882,58 +1882,6 @@
               },
               "blocks": {}
             },
-            "text_XUb7i6": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h1>Fix Your Posture.</h1>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 10,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_yGc9gm": {
-              "type": "text",
-              "name": "t:names.heading",
-              "settings": {
-                "text": "<h1>Relieve Pain.</h1>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "h3",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 10,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "group_hCyRQx": {
               "type": "group",
               "name": "t:names.group",
@@ -2236,8 +2184,6 @@
           },
           "block_order": [
             "group_nG7NAK",
-            "text_XUb7i6",
-            "text_yGc9gm",
             "group_hCyRQx",
             "group_KJnQAK",
             "group_8dzPzr",
