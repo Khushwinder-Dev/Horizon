@@ -2450,6 +2450,7 @@
         "image_i3qWak": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/unnamed.png",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -2460,7 +2461,7 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 0,
+            "border_radius": 20,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -2617,7 +2618,7 @@
                       "type": "icon",
                       "name": "t:names.icon",
                       "settings": {
-                        "icon": "perfume",
+                        "icon": "leaf",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -2817,7 +2818,7 @@
                       "type": "icon",
                       "name": "t:names.icon",
                       "settings": {
-                        "icon": "perfume",
+                        "icon": "eye",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
