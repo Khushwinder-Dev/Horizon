@@ -2510,7 +2510,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Designed for Daily Life.<br/></p>",
+                "text": "<p>How Ortheon Works</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2590,17 +2590,17 @@
                     "custom_width_mobile": 100,
                     "height": "fit",
                     "custom_height": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-9cf4ac5c-35fa-4b0b-8346-0cb40f53e289",
                     "background_media": "none",
                     "video_position": "cover",
                     "background_image_position": "cover",
                     "border": "none",
                     "border_width": 1,
                     "border_opacity": 100,
-                    "border_radius": 5,
+                    "border_radius": 100,
                     "toggle_overlay": true,
-                    "overlay_color": "#a6d3d335",
+                    "overlay_color": "#005b5c",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "link": "",
@@ -2616,7 +2616,7 @@
                       "type": "icon",
                       "name": "t:names.icon",
                       "settings": {
-                        "icon": "perfume",
+                        "icon": "star",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -2672,7 +2672,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h5><strong>Lightweight & breathable</strong></h5>",
+                        "text": "<h5><strong>Bio-Feedback Awareness</strong></h5>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2698,7 +2698,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p>Hypoallergenic mesh ensures all-day comfort, even under tight business clothing.</p>",
+                        "text": "<p>The Ortheon frame gently pulls shoulders back, training your muscles to maintain the correct position naturally.</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2947,6 +2947,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "leaf",
+                        "image_upload": "shopify://shop_images/11.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3147,6 +3148,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "eye",
+                        "image_upload": "shopify://shop_images/12.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3347,6 +3349,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "perfume",
+                        "image_upload": "shopify://shop_images/13.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
