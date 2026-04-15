@@ -2617,6 +2617,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "star",
+                        "image_upload": "shopify://shop_images/gemini-svg_7.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -2817,6 +2818,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "star",
+                        "image_upload": "shopify://shop_images/gemini-svg_8.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3017,7 +3019,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "star",
-                        "image_upload": "shopify://shop_images/03_aa250510-49e9-4310-af6f-89642d9768f5.svg",
+                        "image_upload": "shopify://shop_images/gemini-svg_9.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3333,7 +3335,7 @@
                     "border_opacity": 100,
                     "border_radius": 5,
                     "toggle_overlay": true,
-                    "overlay_color": "#a6d3d335",
+                    "overlay_color": "#a6d3d336",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "link": "",
@@ -3350,7 +3352,6 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "leaf",
-                        "image_upload": "shopify://shop_images/11.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3534,7 +3535,7 @@
                     "border_opacity": 100,
                     "border_radius": 5,
                     "toggle_overlay": true,
-                    "overlay_color": "#a6d3d335",
+                    "overlay_color": "#a6d3d336",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "link": "",
@@ -3551,7 +3552,6 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "eye",
-                        "image_upload": "shopify://shop_images/12.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -3735,7 +3735,7 @@
                     "border_opacity": 100,
                     "border_radius": 5,
                     "toggle_overlay": true,
-                    "overlay_color": "#a6d3d335",
+                    "overlay_color": "#a6d3d336",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
                     "link": "",
@@ -3752,7 +3752,6 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "perfume",
-                        "image_upload": "shopify://shop_images/13.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
