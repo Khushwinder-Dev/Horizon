@@ -329,7 +329,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Join our newsletter for posture tips and exclusive offers.<br/><br/></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
