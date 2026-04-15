@@ -1846,8 +1846,9 @@
             "icon_8PLExV": {
               "type": "icon",
               "settings": {
-                "icon": "eye",
-                "width": 32,
+                "icon": "washing",
+                "image_upload": "shopify://shop_images/1.svg",
+                "width": 50,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -1899,7 +1900,7 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
-                    "type_preset": "h3",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1997,7 +1998,8 @@
               "type": "icon",
               "settings": {
                 "icon": "heart",
-                "width": 32,
+                "image_upload": "shopify://shop_images/2.svg",
+                "width": 50,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -2049,7 +2051,7 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
-                    "type_preset": "h3",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2147,7 +2149,8 @@
               "type": "icon",
               "settings": {
                 "icon": "silhouette",
-                "width": 32,
+                "image_upload": "shopify://shop_images/3.svg",
+                "width": 50,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -2199,7 +2202,7 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
-                    "type_preset": "h3",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -2297,7 +2300,8 @@
               "type": "icon",
               "settings": {
                 "icon": "silhouette",
-                "width": 32,
+                "image_upload": "shopify://shop_images/4.svg",
+                "width": 50,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -2349,7 +2353,7 @@
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
-                    "type_preset": "h3",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
