@@ -412,10 +412,20 @@
             "case": "none"
           },
           "blocks": {}
+        },
+        "footer_policy_list_aCTeXe": {
+          "type": "footer-policy-list",
+          "name": "t:names.policy_list",
+          "settings": {
+            "font_size": "0.75rem",
+            "case": "none"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "footer_copyright_JCUwkX"
+        "footer_copyright_JCUwkX",
+        "footer_policy_list_aCTeXe"
       ],
       "name": "t:names.utilities",
       "settings": {
