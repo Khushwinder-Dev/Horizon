@@ -211,7 +211,7 @@
     "pickup_available_in": "Pickup available, {{ pickup_time }}",
     "pickup_not_available": "Pickup currently not available",
     "pickup_ready_in": "{{ pickup_time }}",
-    "powered_by": "This shop will be powered by",
+    "powered_by": "All rights reserved.",
     "price": "Price",
     "price_compare_at": "Compare at price",
     "price_from": "From {{ price }}",
@@ -347,11 +347,6 @@
       "in_cart": "in cart",
       "default_title": "Default Title",
       "sticky_add_to_cart": "Quick add to cart bar"
-    }
-  },
-  "shopify": {
-    "links": {
-      "powered_by_shopify": "All rights reserved."
     }
   }
 }
