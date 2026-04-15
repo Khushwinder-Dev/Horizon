@@ -85,6 +85,7 @@
         "text_AKqUNK",
         "button_H9gpTf"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-block--AYzl6U2FLSHFEYVczU__text_YLPk4p p {color: #e6c97a; /* light warm gold */}"
       ],
@@ -123,6 +124,7 @@
     },
     "split_PVn8MY": {
       "type": "split",
+      "disabled": true,
       "name": "Split feature banner",
       "settings": {
         "section_bg": "#ffffff",
@@ -288,6 +290,7 @@
         "card_4XCYY7",
         "card_kwzrrp"
       ],
+      "disabled": true,
       "name": "Rounded Image Cards",
       "settings": {
         "heading_text": "Bestsellers",
@@ -454,6 +457,7 @@
         "image_HjPCgc",
         "group_NmG486"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-block--AZ3ZVOXlXZ1BNNHpEU__text_VE94gF p {color: #e6c97a; /* light warm gold */}",
         "button,.btn,a.button {background-color: #ffffff !important; border: 2px solid #e6c97a !important; color: #000000; /* text color (change if needed) */}",
@@ -525,6 +529,7 @@
         "card_QiKWJA",
         "card_F9XErg"
       ],
+      "disabled": true,
       "name": "SS - Gallery #7",
       "settings": {
         "cards_per_view": 3,
@@ -850,6 +855,7 @@
         "text_YzniRx",
         "accordion_dgKPEC"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-block--ANEJhaUQzWnVsRDlMW__text_YzniRx h2 {color: #e6c97a !important;}"
       ],
