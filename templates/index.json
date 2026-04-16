@@ -4111,6 +4111,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "leaf",
+                        "image_upload": "shopify://shop_images/download.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -4311,6 +4312,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "eye",
+                        "image_upload": "shopify://shop_images/download_1.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
@@ -4511,6 +4513,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "perfume",
+                        "image_upload": "shopify://shop_images/download_2.svg",
                         "width": 54,
                         "link": "",
                         "open_in_new_tab": false
