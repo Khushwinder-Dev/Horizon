@@ -2971,7 +2971,7 @@
           "name": "t:names.header",
           "static": true,
           "settings": {
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": false,
             "horizontal_alignment": "space-between",
             "vertical_alignment": "flex-end",
@@ -3004,7 +3004,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>{{ closest.collection.title }}</h2>",
+                "text": "<h2>Engineered For Your Body</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -3026,11 +3026,37 @@
               },
               "blocks": {}
             },
+            "text_tLgRiP": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>The precision collection of posture orthopedic solutions.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "product_list_button_6jw389": {
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "View All Products",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
@@ -3043,6 +3069,7 @@
           },
           "block_order": [
             "product_list_text_efDVEk",
+            "text_tLgRiP",
             "product_list_button_6jw389"
           ]
         },
