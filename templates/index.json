@@ -2218,7 +2218,6 @@
         "group_DbQPGr",
         "image_x8qWYq"
       ],
-      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -2862,7 +2861,6 @@
         "group_UWmz46",
         "group_qraLCq"
       ],
-      "disabled": true,
       "name": "t:names.icons_with_text",
       "settings": {
         "content_direction": "row",
@@ -3598,7 +3596,6 @@
         "image_i3qWak",
         "group_GktBmG"
       ],
-      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -4331,7 +4328,6 @@
         "group_fDXhnW",
         "image_A44M9p"
       ],
-      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -4624,7 +4620,6 @@
         "text_YzniRx",
         "accordion_dgKPEC"
       ],
-      "disabled": true,
       "custom_css": [
         ".text-block--ANEJhaUQzWnVsRDlMW__text_YzniRx h2 {color: #e6c97a !important;}"
       ],
