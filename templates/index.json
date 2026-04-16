@@ -3030,7 +3030,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>The precision collection of posture orthopedic solutions.</p>",
+                "text": "<p>Precision instruments for every stage of your recovery journey.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -3165,7 +3165,7 @@
       },
       "name": "t:names.products_carousel",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "layout_type": "carousel",
         "carousel_on_mobile": false,
         "max_products": 6,
