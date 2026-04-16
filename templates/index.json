@@ -4683,6 +4683,7 @@
             "text_6PAwnN": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>New arrivals</h3>",
                 "width": "fit-content",
@@ -4708,6 +4709,7 @@
             },
             "text_CYN37J": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Introducing our latest products, made especially for the season. Shop your favorites before they're gone!</p>",
                 "width": "fit-content",
@@ -4733,6 +4735,7 @@
             },
             "button_66x7qe": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "label": "Shop now",
                 "link": "shopify://collections/all",
@@ -4780,6 +4783,7 @@
             "text_BFE6jY": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h2>Bestsellers</h2>",
                 "width": "fit-content",
@@ -4805,6 +4809,7 @@
             },
             "text_wyYTQz": {
               "type": "text",
+              "disabled": true,
               "settings": {
                 "text": "<p>Discover the bestsellers that have captured the hearts of our customers with their perfect blend of functionality and style.</p>",
                 "width": "fit-content",
@@ -4830,6 +4835,7 @@
             },
             "button_n4Yk8b": {
               "type": "button",
+              "disabled": true,
               "settings": {
                 "label": "Shop now",
                 "link": "shopify://collections/all",
@@ -4857,11 +4863,11 @@
       "name": "t:names.slideshow_full_frame",
       "settings": {
         "display_mode": "full_frame",
-        "section_width": "page-width",
+        "section_width": "full-width",
         "full_frame_on_mobile": false,
         "slideshow_gap": 12,
         "corner_radius": 0,
-        "slide_height": "medium",
+        "slide_height": "large",
         "content_position": "on-media",
         "color_scheme": "",
         "icons_style": "arrows_large",
