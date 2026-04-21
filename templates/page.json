@@ -703,7 +703,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>New arrivals</h2>",
+                "text": "<h2>Ready to live without limits?</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -729,7 +729,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Join the 50,000+ people who have regained their mobility with Ortheon's clinical solutions.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -755,7 +755,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Shop now",
+                "label": "Shop the Collection",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
