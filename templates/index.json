@@ -5110,7 +5110,7 @@
                   "settings": {
                     "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -5273,7 +5273,8 @@
         "accordion_dgKPEC"
       ],
       "custom_css": [
-        ".text-block--ANEJhaUQzWnVsRDlMW__text_YzniRx h2 {color: #e6c97a !important;}"
+        ".text-block--ANEJhaUQzWnVsRDlMW__text_YzniRx h2 {color: #e6c97a !important;}",
+        ".details-content p {min-width: 100%;}"
       ],
       "name": "t:names.faq_section",
       "settings": {
