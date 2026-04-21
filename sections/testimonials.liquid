@@ -24,8 +24,10 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    gap: 1.5rem;
-    padding: 10px 0 20px;
+    gap: 1rem;
+    padding: 10px 20px 30px;
+    margin-left: -20px;
+    margin-right: -20px;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
@@ -35,10 +37,15 @@
   }
 
   .testimonial-item {
-    flex: 0 0 85%;
+    flex: 0 0 90%;
+    min-width: 280px;
     scroll-snap-align: center;
   }
-
+ @media screen and (max-width: 750px) {
+  .testimonial-card {
+    margin: unset;
+}
+}
   @media screen and (min-width: 750px) {
     .testimonials-container {
       display: grid;
@@ -46,10 +53,13 @@
       grid-template-columns: repeat({{ columns_tablet }}, 1fr);
       overflow-x: visible;
       padding: 0;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .testimonial-item {
       flex: none;
+      min-width: auto;
     }
   }
 
@@ -122,12 +132,13 @@
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    font-size: 0.75rem;
-    color: #00b67a; /* Trustpilot green or similar success color */
-    font-weight: 600;
+    font-size: 0.7rem;
+    color: #00b67a;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 4px;
+    white-space: nowrap;
   }
 
   .testimonial-card__verified svg {
@@ -144,9 +155,9 @@
   }
 
   .testimonial-card__rating svg {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
+    width: 18px;
+    height: 18px;
+    fill: currentColor !important;
   }
 
   .testimonial-card__text {
@@ -229,10 +240,10 @@
               </div>
             </div>
 
-            <div class="testimonial-card__rating" aria-label="{{ 'accessibility.star_rating' | t: count: 5 }}">
-              {%- for i in (1..5) -%}
-                <svg viewBox="0 0 20 20" aria-hidden="true">
-                  {%- render 'icon', icon: 'star' -%}
+            <div class="testimonial-card__rating" aria-label="{{ 'accessibility.star_rating' | t: count: block.settings.rating }}">
+              {%- for i in (1..block.settings.rating) -%}
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
                 </svg>
               {%- endfor -%}
             </div>
@@ -383,6 +394,15 @@
           "default": "New York, NY"
         },
         {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Rating",
+          "default": 5
+        },
+        {
           "type": "richtext",
           "id": "text",
           "label": "Review text",
@@ -406,6 +426,7 @@
           "settings": {
             "name": "Sarah Jenkins",
             "location": "London, UK",
+            "rating": 5,
             "text": "<p>\"The attention to detail is simply unmatched. From the packaging to the product itself, everything screams premium quality. I'll definitely be coming back for more!\"</p>"
           }
         },
@@ -414,6 +435,7 @@
           "settings": {
             "name": "Michael Chen",
             "location": "San Francisco, CA",
+            "rating": 5,
             "text": "<p>\"Outstanding customer support and a product that actually delivers on its promises. It's rare to find this level of commitment to customer satisfaction these days.\"</p>"
           }
         },
@@ -422,6 +444,7 @@
           "settings": {
             "name": "Emma Rodriguez",
             "location": "Madrid, Spain",
+            "rating": 5,
             "text": "<p>\"Beautifully designed and works like a charm. It's clear that a lot of thought went into every single feature. Best purchase I've made this year by far!\"</p>"
           }
         }
