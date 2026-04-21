@@ -606,11 +606,22 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
+                        "icon_pNNhdn": {
+                          "type": "icon",
+                          "name": "t:names.icon",
+                          "settings": {
+                            "icon": "plant",
+                            "width": 24,
+                            "link": "",
+                            "open_in_new_tab": false
+                          },
+                          "blocks": {}
+                        },
                         "text_8LeJwN": {
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<h2>New arrivals</h2>",
+                            "text": "<h3>Support Team</h3>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -631,27 +642,43 @@
                             "padding-inline-end": 0
                           },
                           "blocks": {}
-                        },
-                        "icon_pNNhdn": {
-                          "type": "icon",
-                          "name": "t:names.icon",
-                          "settings": {
-                            "icon": "price_tag",
-                            "width": 24,
-                            "link": "",
-                            "open_in_new_tab": false
-                          },
-                          "blocks": {}
                         }
                       },
                       "block_order": [
-                        "text_8LeJwN",
-                        "icon_pNNhdn"
+                        "icon_pNNhdn",
+                        "text_8LeJwN"
                       ]
+                    },
+                    "text_yag9Cy": {
+                      "type": "text",
+                      "name": "t:names.text",
+                      "settings": {
+                        "text": "<p>Our clinical support specialists aim to respond within 4 business hours.<br/><br/></p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
-                    "group_FHgGc9"
+                    "group_FHgGc9",
+                    "text_yag9Cy"
                   ]
                 },
                 "group_fceXKH": {
