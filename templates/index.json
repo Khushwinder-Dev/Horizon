@@ -4790,6 +4790,7 @@
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/AZ2VM1glO_6Zudem2ZF3gQ-AZ2VM1gl0NBHnXFsYjX23g_2_53066acf-4cd2-49a1-a93a-5d4741a22f21.png",
+            "mobile_image": "shopify://shop_images/AZ2VM1glO_6Zudem2ZF3gQ-AZ2VM1gl0NBHnXFsYjX23g_2_ffd3ed01-14a0-42fb-a09e-84b9a89fa87f.png",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -4890,6 +4891,7 @@
           "settings": {
             "media_type_1": "image",
             "image_1": "shopify://shop_images/Gemini_Generated_Image_am3ng0am3ng0am3n_1.png",
+            "mobile_image": "shopify://shop_images/Gemini_Generated_Image_am3ng0am3ng0am3n.png",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
