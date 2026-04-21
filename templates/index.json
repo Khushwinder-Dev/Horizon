@@ -2976,7 +2976,7 @@
             "horizontal_alignment": "space-between",
             "vertical_alignment": "flex-end",
             "align_baseline": true,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fill",
@@ -3004,7 +3004,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Engineered For Your Body</h2>",
+                "text": "<h1>Engineered For Your Body</h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
