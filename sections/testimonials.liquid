@@ -1,0 +1,432 @@
+{%- liquid
+  assign section_id = section.id
+  assign color_scheme = section.settings.color_scheme
+  assign columns_desktop = section.settings.columns_desktop
+  assign columns_tablet = 2
+  assign columns_mobile = 1
+-%}
+
+{%- style -%}
+  .section-{{ section_id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section_id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .testimonials-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 1.5rem;
+    padding: 10px 0 20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .testimonials-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+  }
+
+  .testimonial-item {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    .testimonials-container {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat({{ columns_tablet }}, 1fr);
+      overflow-x: visible;
+      padding: 0;
+    }
+
+    .testimonial-item {
+      flex: none;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .testimonials-container {
+      grid-template-columns: repeat({{ columns_desktop }}, 1fr);
+    }
+  }
+
+  .testimonial-card {
+    background: rgb(var(--color-background));
+    color: rgb(var(--color-foreground));
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+    border: 1px solid rgba(var(--color-foreground), 0.08);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  .testimonial-card__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-card__image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: rgba(var(--color-foreground), 0.05);
+    border: 2px solid rgb(var(--color-background));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .testimonial-card__name {
+    font-family: var(--font-heading--family);
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.2;
+    color: rgb(var(--color-foreground));
+  }
+
+  .testimonial-card__location {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    font-family: var(--font-body--family);
+  }
+
+  .testimonial-card__verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    color: #00b67a; /* Trustpilot green or similar success color */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 4px;
+  }
+
+  .testimonial-card__verified svg {
+    width: 12px;
+    height: 12px;
+    fill: currentColor;
+  }
+
+  .testimonial-card__rating {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 16px;
+    color: #ffb800;
+  }
+
+  .testimonial-card__rating svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+
+  .testimonial-card__text {
+    font-family: var(--font-body--family);
+    font-style: normal;
+    line-height: 1.6;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1rem;
+    color: rgb(var(--color-foreground) / 0.9);
+  }
+
+  .testimonials-header {
+    margin-bottom: 4rem;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+
+  .testimonials-header__title {
+    margin-bottom: 1rem;
+    font-family: var(--font-heading--family);
+  }
+
+  .testimonials-header__subtitle {
+    max-width: 700px;
+    margin-left: {% if section.settings.heading_alignment == 'center' %}auto{% else %}0{% endif %};
+    margin-right: {% if section.settings.heading_alignment == 'center' %}auto{% else %}0{% endif %};
+    opacity: 0.7;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+{%- endstyle -%}
+
+<div class="section-background color-{{ color_scheme }}"></div>
+<div class="section section--{{ section.settings.section_width }} color-{{ color_scheme }} section-{{ section_id }}-padding">
+  <div class="page-width">
+    {%- if section.settings.title != blank or section.settings.subtitle != blank -%}
+      <div class="testimonials-header">
+        {%- if section.settings.title != blank -%}
+          <h2 class="testimonials-header__title {{ section.settings.heading_size }}">
+            {{ section.settings.title | escape }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <div class="testimonials-header__subtitle rte">
+            {{ section.settings.subtitle }}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="testimonials-container">
+      {%- for block in section.blocks -%}
+        <div class="testimonial-item" {{ block.shopify_attributes }}>
+          <blockquote class="testimonial-card">
+            <div class="testimonial-card__header">
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 120 | image_tag: 
+                  class: 'testimonial-card__image',
+                  loading: 'lazy',
+                  widths: '60, 120'
+                }}
+              {%- else -%}
+                <div class="testimonial-card__image testimonial-card__image--placeholder">
+                  {{ 'image' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              <div class="testimonial-card__info">
+                <cite class="testimonial-card__name">{{ block.settings.name | escape }}</cite>
+                {%- if block.settings.location != blank -%}
+                  <span class="testimonial-card__location">{{ block.settings.location | escape }}</span>
+                {%- endif -%}
+                {%- if block.settings.verified_buyer -%}
+                  <span class="testimonial-card__verified">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" fill="currentColor"/>
+                    </svg>
+                    Verified Buyer
+                  </span>
+                {%- endif -%}
+              </div>
+            </div>
+
+            <div class="testimonial-card__rating" aria-label="{{ 'accessibility.star_rating' | t: count: 5 }}">
+              {%- for i in (1..5) -%}
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  {%- render 'icon', icon: 'star' -%}
+                </svg>
+              {%- endfor -%}
+            </div>
+
+            <div class="testimonial-card__text rte">
+              {{ block.settings.text }}
+            </div>
+          </blockquote>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "What our customers say"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "<p>Read some of our favorite reviews from around the web.</p>"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "Page width"
+        },
+        {
+          "value": "full-width",
+          "label": "Full width"
+        }
+      ],
+      "default": "page-width"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3,
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Customer image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Customer name",
+          "default": "John Doe"
+        },
+        {
+          "type": "text",
+          "id": "location",
+          "label": "Location",
+          "default": "New York, NY"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Review text",
+          "default": "<p>\"I am beyond impressed with the quality and design. It exceeded all my expectations and has become an essential part of my daily routine. Highly recommended to anyone looking for excellence!\"</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "verified_buyer",
+          "label": "Show verified buyer badge",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "name": "Sarah Jenkins",
+            "location": "London, UK",
+            "text": "<p>\"The attention to detail is simply unmatched. From the packaging to the product itself, everything screams premium quality. I'll definitely be coming back for more!\"</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "name": "Michael Chen",
+            "location": "San Francisco, CA",
+            "text": "<p>\"Outstanding customer support and a product that actually delivers on its promises. It's rare to find this level of commitment to customer satisfaction these days.\"</p>"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "name": "Emma Rodriguez",
+            "location": "Madrid, Spain",
+            "text": "<p>\"Beautifully designed and works like a charm. It's clear that a lot of thought went into every single feature. Best purchase I've made this year by far!\"</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
