@@ -5306,6 +5306,58 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "testimonials_g83HzJ": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_c3eVdG": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
+            "name": "Sarah Jenkins",
+            "location": "London, UK",
+            "text": "<p>\"The attention to detail is simply unmatched. From the packaging to the product itself, everything screams premium quality. I'll definitely be coming back for more!\"</p>",
+            "verified_buyer": true
+          }
+        },
+        "testimonial_YeDp6A": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/model-in-sunglasses-and-summer-clothes.jpg",
+            "name": "Michael Chen",
+            "location": "San Francisco, CA",
+            "text": "<p>\"Outstanding customer support and a product that actually delivers on its promises. It's rare to find this level of commitment to customer satisfaction these days.\"</p>",
+            "verified_buyer": true
+          }
+        },
+        "testimonial_MxaaRV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/make-girl-face-image.png",
+            "name": "Emma Rodriguez",
+            "location": "Madrid, Spain",
+            "text": "<p>\"Beautifully designed and works like a charm. It's clear that a lot of thought went into every single feature. Best purchase I've made this year by far!\"</p>",
+            "verified_buyer": true
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_c3eVdG",
+        "testimonial_YeDp6A",
+        "testimonial_MxaaRV"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "What our customers say",
+        "heading_size": "h1",
+        "subtitle": "<p>Read some of our favorite reviews from around the web.</p>",
+        "heading_alignment": "center",
+        "section_width": "page-width",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -5327,6 +5379,7 @@
     "section_97xiPQ",
     "section_Y9F3L8",
     "slideshow_FaJQdn",
-    "section_xa6cmE"
+    "section_xa6cmE",
+    "testimonials_g83HzJ"
   ]
 }
