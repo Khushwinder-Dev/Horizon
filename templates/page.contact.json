@@ -384,7 +384,7 @@
                     "link": "",
                     "image_ratio": "adapt",
                     "width": "fill",
-                    "custom_width": 100,
+                    "custom_width": 62,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
                     "height": "fit",
