@@ -526,7 +526,7 @@
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
-            "border_radius": 54,
+            "border_radius": 10,
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
@@ -544,7 +544,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Ready to live without limits?</h2>",
+                "text": "<h2>Prefer a direct consultation?</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -570,7 +570,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Join the 50,000+ people who have regained their mobility with Ortheon's clinical solutions.</p>",
+                "text": "<p>Schedule a 15-minute diagnostic call with our product engineers to explore Ortheon solutions for your practice.<br/><br/></p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -596,7 +596,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Shop the Collection",
+                "label": "Book a Technical Call",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
