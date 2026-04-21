@@ -2171,7 +2171,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Medical-grade support engineered for the modern lifestyle. Realign your spine and reclaim your comfort with clinical precision.</p>",
+                "text": "<h4>Medical-grade support engineered for the modern lifestyle. Realign your spine and reclaim your comfort with clinical precision.</h4>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
