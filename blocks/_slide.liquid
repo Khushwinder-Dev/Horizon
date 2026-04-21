@@ -58,11 +58,50 @@
       -%}
 
       {%- if block_settings.media_type_1 == 'image' -%}
-        {{
-          block_settings.image_1
-          | image_url: width: 3840
-          | image_tag: height: height, sizes: sizes, widths: widths, class: 'slide__image', loading: loading, fetchpriority: fetchpriority
-        }}
+        {%- liquid
+          assign desktop_image = block_settings.image_1
+          assign mobile_image = block_settings.mobile_image | default: desktop_image
+
+          assign alt_text = desktop_image.alt
+          if alt_text == blank
+            for sub_block in block.blocks
+              if sub_block.type == "_heading"
+                assign alt_text = sub_block.settings.text | strip_html | strip
+                break
+              endif
+            endfor
+          endif
+          if alt_text == blank
+            assign alt_text = shop.name | append: " slideshow image"
+          endif
+        -%}
+        <picture>
+          {%- if block_settings.mobile_image != blank -%}
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                {%- if mobile_image.width >= 375 -%}{{ mobile_image | image_url: width: 375 }} 375w,{%- endif -%}
+                {%- if mobile_image.width >= 550 -%}{{ mobile_image | image_url: width: 550 }} 550w,{%- endif -%}
+                {%- if mobile_image.width >= 750 -%}{{ mobile_image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if mobile_image.width >= 1100 -%}{{ mobile_image | image_url: width: 1100 }} 1100w,{%- endif -%}
+                {{ mobile_image | image_url }} {{ mobile_image.width }}w
+              "
+              sizes="100vw"
+            >
+          {%- endif -%}
+          {{
+            desktop_image
+            | image_url: width: 3840
+            | image_tag:
+              height: height,
+              sizes: sizes,
+              widths: widths,
+              class: 'slide__image',
+              loading: loading,
+              fetchpriority: fetchpriority,
+              alt: alt_text
+          }}
+        </picture>
       {%- else -%}
         {%- if block_settings.video_1.preview_image -%}
 
@@ -158,9 +197,15 @@
     position: absolute;
   }
 
-  .slide__image-container > .slide__image,
-  .slide__image-container > .slide__video,
-  .slide__image-container > .slide__video-poster {
+  .slide__image-container picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide__image-container .slide__image,
+  .slide__image-container .slide__video,
+  .slide__image-container .slide__video-poster {
     position: relative;
     width: 100%;
     height: 100%;
@@ -241,6 +286,12 @@
       "type": "image_picker",
       "id": "image_1",
       "label": "t:settings.image",
+      "visible_if": "{{ block.settings.media_type_1 == 'image' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image",
       "visible_if": "{{ block.settings.media_type_1 == 'image' }}"
     },
     {
