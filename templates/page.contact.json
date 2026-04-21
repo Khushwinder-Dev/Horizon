@@ -674,11 +674,27 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {}
+                    },
+                    "button_bRMUYc": {
+                      "type": "button",
+                      "name": "t:names.button",
+                      "settings": {
+                        "label": "support@ortheon.com",
+                        "link": "shopify://collections/all",
+                        "open_in_new_tab": false,
+                        "style_class": "link",
+                        "width": "fit-content",
+                        "custom_width": 100,
+                        "width_mobile": "fit-content",
+                        "custom_width_mobile": 100
+                      },
+                      "blocks": {}
                     }
                   },
                   "block_order": [
                     "group_FHgGc9",
-                    "text_yag9Cy"
+                    "text_yag9Cy",
+                    "button_bRMUYc"
                   ]
                 },
                 "group_fceXKH": {
