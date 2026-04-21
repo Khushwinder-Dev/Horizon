@@ -231,7 +231,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1>The Science of</h1>",
+                        "text": "<h1>Connect with</h1>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -303,7 +303,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1>Pain-Free</h1>",
+                        "text": "<h1><em>Precision.</em></h1>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -329,7 +329,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1>Living.</h1>",
+                        "text": "",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -361,7 +361,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We believe that movement is a fundamental human right. Ortheon was founded to bridge the gap between clinical excellence and everyday wellness.<br/><br/></p>",
+                    "text": "<p>Whether you're a clinician seeking technical specs or a patient on your recovery journey, our specialized team is ready to assist.<br/><br/></p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
