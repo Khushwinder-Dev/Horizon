@@ -4216,3 +4216,6 @@ product-recommendations:has([data-has-recommendations='false']) {
 footer .shopify-section .utilities * {
     color: white;
 }
+footer .shopify-section:has(.utilities) {
+    border-top: 1px solid #ffffff;
+}
