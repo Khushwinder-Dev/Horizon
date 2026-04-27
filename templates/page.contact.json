@@ -440,7 +440,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-end": 40
       }
     },
     "section_zqPkGw": {
@@ -610,8 +610,8 @@
                           "type": "icon",
                           "name": "t:names.icon",
                           "settings": {
-                            "icon": "plant",
-                            "width": 24,
+                            "icon": "chat_bubble",
+                            "width": 40,
                             "link": "",
                             "open_in_new_tab": false
                           },
