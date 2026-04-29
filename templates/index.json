@@ -4346,6 +4346,22 @@
         "padding-block-end": 48
       }
     },
+    "tabbed_collections_premium_iDbAbM": {
+      "type": "tabbed-collections-premium",
+      "name": "Tabbed Collections Premium",
+      "settings": {
+        "heading": "Find Your Fit",
+        "background_color": "#ffffff",
+        "tab_label_1": "Essential Collection (Beginner)",
+        "collection_1": "essential-collection-beginner",
+        "tab_label_2": "Pro Collection (Mid-Level)",
+        "collection_2": "pro-collection-mid-level",
+        "tab_label_3": "Premium Collection (High-End)",
+        "collection_3": "premium-collection-high-end",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "product_list_xiMBD3": {
       "type": "product-list",
       "blocks": {
@@ -4585,6 +4601,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.products_carousel",
       "settings": {
         "collection": "best-seller",
@@ -6009,22 +6026,6 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
-    },
-    "tabbed_collections_premium_iDbAbM": {
-      "type": "tabbed-collections-premium",
-      "name": "Tabbed Collections Premium",
-      "settings": {
-        "heading": "Find Your Fit",
-        "background_color": "#ffffff",
-        "tab_label_1": "Essential Collection (Beginner)",
-        "collection_1": "essential-collection-beginner",
-        "tab_label_2": "Pro Collection (Mid-Level)",
-        "collection_2": "pro-collection-mid-level",
-        "tab_label_3": "Premium Collection (High-End)",
-        "collection_3": "premium-collection-high-end",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
@@ -6043,12 +6044,12 @@
     "section_6jCdm4",
     "section_Bw6KVM",
     "section_JwLpdJ",
+    "tabbed_collections_premium_iDbAbM",
     "product_list_xiMBD3",
     "section_97xiPQ",
     "section_Y9F3L8",
     "slideshow_FaJQdn",
     "testimonials_g83HzJ",
-    "section_xa6cmE",
-    "tabbed_collections_premium_iDbAbM"
+    "section_xa6cmE"
   ]
 }
