@@ -573,25 +573,49 @@
         submitBtn.classList.add('is-loading');
         submitBtn.disabled = true;
 
+        const cartItemsComponents = document.querySelectorAll('cart-items-component');
+        let cartItemComponentsSectionIds = [];
+        cartItemsComponents.forEach((item) => {
+          if (item instanceof HTMLElement && item.dataset.sectionId) {
+            cartItemComponentsSectionIds.push(item.dataset.sectionId);
+          }
+        });
+        
+        if (cartItemComponentsSectionIds.length > 0) {
+          formData.append('sections', cartItemComponentsSectionIds.join(','));
+        }
+
         try {
           const response = await fetch(window.Shopify.routes.root + 'cart/add.js', {
             method: 'POST',
             body: formData,
             headers: {
-              'X-Requested-With': 'XMLHttpRequest'
+              'X-Requested-With': 'XMLHttpRequest',
+              'Accept': 'application/json'
             }
           });
           
           if (!response.ok) throw new Error('Network response was not ok');
+          const parsedResponse = await response.json();
           
           // Success Feedback
           submitBtn.classList.remove('is-loading');
           const originalText = submitBtn.textContent;
           submitBtn.textContent = 'Added!';
           
-          // Dispatch cart update event for standard Shopify themes
-          document.dispatchEvent(new CustomEvent('cart:updated'));
-          document.documentElement.dispatchEvent(new CustomEvent('cart:updated', { bubbles: true }));
+          // Dispatch cart update event for Horizon / Dawn themes
+          const quantityAdded = Number(formData.get('quantity')) || 1;
+          const cartEvent = new CustomEvent('cart:update', {
+            bubbles: true,
+            detail: {
+              data: {
+                itemCount: quantityAdded,
+                source: 'product-form-component',
+                sections: parsedResponse.sections
+              }
+            }
+          });
+          document.dispatchEvent(cartEvent);
 
           // Reset button after 2s
           setTimeout(() => {
