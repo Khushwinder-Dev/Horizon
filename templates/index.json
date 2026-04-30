@@ -4346,6 +4346,22 @@
         "padding-block-end": 48
       }
     },
+    "tabbed_collections_premium_iDbAbM": {
+      "type": "tabbed-collections-premium",
+      "name": "Tabbed Collections Premium",
+      "settings": {
+        "heading": "Find Your Fit",
+        "background_color": "#ffffff",
+        "tab_label_1": "Essential Collection (Beginner)",
+        "collection_1": "essential-collection-beginner",
+        "tab_label_2": "Pro Collection (Mid-Level)",
+        "collection_2": "pro-collection-mid-level",
+        "tab_label_3": "Premium Collection (High-End)",
+        "collection_3": "premium-collection-high-end",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "product_list_xiMBD3": {
       "type": "product-list",
       "blocks": {
@@ -4585,6 +4601,7 @@
           ]
         }
       },
+      "disabled": true,
       "name": "t:names.products_carousel",
       "settings": {
         "collection": "best-seller",
@@ -5668,6 +5685,7 @@
             "image": "shopify://shop_images/woman-poses-in-dark-room.jpg",
             "name": "Sarah Jenkins",
             "location": "London, UK",
+            "rating": 5,
             "text": "<p>\"The attention to detail is simply unmatched. From the packaging to the product itself, everything screams premium quality. I'll definitely be coming back for more!\"</p>",
             "verified_buyer": true
           }
@@ -5678,6 +5696,7 @@
             "image": "shopify://shop_images/model-in-sunglasses-and-summer-clothes.jpg",
             "name": "Michael Chen",
             "location": "San Francisco, CA",
+            "rating": 5,
             "text": "<p>\"Outstanding customer support and a product that actually delivers on its promises. It's rare to find this level of commitment to customer satisfaction these days.\"</p>",
             "verified_buyer": true
           }
@@ -5688,6 +5707,7 @@
             "image": "shopify://shop_images/make-girl-face-image.png",
             "name": "Emma Rodriguez",
             "location": "Madrid, Spain",
+            "rating": 5,
             "text": "<p>\"Beautifully designed and works like a charm. It's clear that a lot of thought went into every single feature. Best purchase I've made this year by far!\"</p>",
             "verified_buyer": true
           }
@@ -6024,6 +6044,7 @@
     "section_6jCdm4",
     "section_Bw6KVM",
     "section_JwLpdJ",
+    "tabbed_collections_premium_iDbAbM",
     "product_list_xiMBD3",
     "section_97xiPQ",
     "section_Y9F3L8",
