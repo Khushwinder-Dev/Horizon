@@ -695,7 +695,7 @@
                       "name": "t:names.button",
                       "settings": {
                         "label": "Contact Number: +1 559 500 6271",
-                        "link": "mailto:ortheonposture@gmail.com",
+                        "link": "tel:+15595006271",
                         "open_in_new_tab": false,
                         "style_class": "link",
                         "width": "fit-content",
