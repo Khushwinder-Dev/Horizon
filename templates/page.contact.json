@@ -972,7 +972,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Book a Technical Call",
-                "link": "shopify://collections/all",
+                "link": "tel:+1 559 500 6271",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
