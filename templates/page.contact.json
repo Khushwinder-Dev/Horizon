@@ -679,8 +679,8 @@
                       "type": "button",
                       "name": "t:names.button",
                       "settings": {
-                        "label": "support@ortheon.com",
-                        "link": "shopify://collections/all",
+                        "label": "ortheonposture@gmail.com",
+                        "link": "mailto:ortheonposture@gmail.com",
                         "open_in_new_tab": false,
                         "style_class": "link",
                         "width": "fit-content",
