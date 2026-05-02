@@ -184,7 +184,7 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<p>The Ortheon Story</p>",
+                        "text": "<h4><strong>The Ortheon Story</strong></h4>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
