@@ -679,7 +679,22 @@
                       "type": "button",
                       "name": "t:names.button",
                       "settings": {
-                        "label": "ortheonposture@gmail.com",
+                        "label": "Email: ortheonposture@gmail.com",
+                        "link": "mailto:ortheonposture@gmail.com",
+                        "open_in_new_tab": false,
+                        "style_class": "link",
+                        "width": "fit-content",
+                        "custom_width": 100,
+                        "width_mobile": "fit-content",
+                        "custom_width_mobile": 100
+                      },
+                      "blocks": {}
+                    },
+                    "button_wHrKAD": {
+                      "type": "button",
+                      "name": "t:names.button",
+                      "settings": {
+                        "label": "Contact Number: +1 559 500 6271",
                         "link": "mailto:ortheonposture@gmail.com",
                         "open_in_new_tab": false,
                         "style_class": "link",
@@ -694,7 +709,8 @@
                   "block_order": [
                     "group_FHgGc9",
                     "text_yag9Cy",
-                    "button_bRMUYc"
+                    "button_bRMUYc",
+                    "button_wHrKAD"
                   ]
                 },
                 "group_fceXKH": {
