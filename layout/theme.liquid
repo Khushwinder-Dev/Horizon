@@ -146,23 +146,26 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
-
+   
     <script>
       (function () {
         const now = new Date();
 
-        // 👉 Set your campaign dates
+        // Campaign dates
         const start = new Date('2026-05-01');
         const end = new Date('2026-05-12');
 
-        const isHome = window.location.pathname === '/';
+        const currentPath = window.location.pathname;
 
-        // prevent redirect loop
-        const alreadySeen = sessionStorage.getItem('md_seen');
+        // Allow only this page
+        const allowedPath = '/pages/mothers-day-gifts';
 
-        if (now >= start && now <= end && isHome && !alreadySeen) {
-          sessionStorage.setItem('md_seen', '1');
-          window.location.href = '/pages/mothers-day-gifts';
+        // prevent loop
+        const alreadyRedirected = sessionStorage.getItem('md_forced');
+
+        if (now >= start && now <= end && currentPath !== allowedPath && !alreadyRedirected) {
+          sessionStorage.setItem('md_forced', '1');
+          window.location.href = allowedPath;
         }
       })();
     </script>
