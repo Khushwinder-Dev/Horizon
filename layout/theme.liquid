@@ -146,7 +146,7 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
-   
+
     <script>
       (function () {
         const now = new Date();
@@ -155,17 +155,11 @@
         const start = new Date('2026-05-01');
         const end = new Date('2026-05-12');
 
-        const currentPath = window.location.pathname;
+        const target = '/pages/mothers-day-gifts';
+        const current = window.location.pathname;
 
-        // Allow only this page
-        const allowedPath = '/pages/mothers-day-gifts';
-
-        // prevent loop
-        const alreadyRedirected = sessionStorage.getItem('md_forced');
-
-        if (now >= start && now <= end && currentPath !== allowedPath && !alreadyRedirected) {
-          sessionStorage.setItem('md_forced', '1');
-          window.location.href = allowedPath;
+        if (now >= start && now <= end && current !== target) {
+          window.location.replace(target);
         }
       })();
     </script>
