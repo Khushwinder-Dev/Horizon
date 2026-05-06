@@ -151,14 +151,13 @@
       (function () {
         const now = new Date();
 
-        // Campaign dates
         const start = new Date('2026-05-01');
         const end = new Date('2026-05-12');
 
+        const isHome = window.location.pathname === '/';
         const target = '/pages/mothers-day-gifts';
-        const current = window.location.pathname;
 
-        if (now >= start && now <= end && current !== target) {
+        if (now >= start && now <= end && isHome) {
           window.location.replace(target);
         }
       })();
