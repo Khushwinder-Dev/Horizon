@@ -474,7 +474,7 @@
         "text_74zU47": {
           "type": "text",
           "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers.</p>",
+            "text": "<h5>Give the gift of comfort, care and better living.</h5>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -490,7 +490,7 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 32,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -536,7 +536,7 @@
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 16,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "section_height": "custom",
         "section_height_custom": 0,
         "color_scheme": "scheme-13ba8f81-d5d0-4099-9a58-6c19d9168b54",
