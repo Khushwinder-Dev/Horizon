@@ -443,6 +443,17 @@
         "padding-block-end": 30
       }
     },
+    "custom_liquid_CjzQ7j": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"hero\">\n  <div class=\"hero-container\">\n\n    <!-- LEFT CONTENT -->\n    <div class=\"hero-content\">\n      <span class=\"badge\">❤️ HAPPY MOTHER'S DAY</span>\n\n      <h1>\n        Give Her the <br>\n        <span>Comfort</span><br>\n        She Deserves\n      </h1>\n\n      <p>\n        Thoughtful wellness gifts for her posture, comfort\n        and everyday well-being.\n      </p>\n\n      <div class=\"hero-buttons\">\n        <a href=\"https://ortheonposture.com/collections/all\" class=\"btn primary\">Shop Gifts</a>\n        <a href=\"https://ortheonposture.com/collections/all\" class=\"btn secondary\">Best Sellers</a>\n      </div>\n\n      <div class=\"hero-features\">\n        <div>🚚 Free Shipping</div>\n        <div>↩️ 30-Day Returns</div>\n        <div>⭐ Trusted by 10K+</div>\n      </div>\n    </div>\n\n    <!-- RIGHT IMAGE -->\n    <div class=\"hero-image\">\n      <img src=\"hero-image.jpg\" alt=\"Mother and daughter with gift\">\n    </div>\n\n  </div>\n</section>\n\n<style>\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Segoe UI\", sans-serif;\n}\n\n.hero {\n  background: #f6f1eb;\n  padding: 60px 20px;\n}\n\n.hero-container {\n  max-width: 1200px;\n  margin: auto;\n  display: flex;\n  align-items: center;\n  gap: 40px;\n}\n\n/* LEFT */\n.hero-content {\n  flex: 1;\n}\n\n.badge {\n  background: #ffe5d6;\n  color: #c86b4f;\n  padding: 6px 14px;\n  border-radius: 20px;\n  font-size: 14px;\n  display: inline-block;\n  margin-bottom: 15px;\n}\n\n.hero-content h1 {\n  font-size: 48px;\n  line-height: 1.2;\n  color: #222;\n}\n\n.hero-content h1 span {\n  color: #0f5c54;\n}\n\n.hero-content p {\n  margin: 20px 0;\n  color: #555;\n  max-width: 450px;\n}\n\n/* BUTTONS */\n.hero-buttons {\n  display: flex;\n  gap: 15px;\n  margin-bottom: 20px;\n}\n\n.btn {\n  padding: 12px 24px;\n  border-radius: 30px;\n  text-decoration: none;\n  font-weight: 500;\n}\n\n.btn.primary {\n  background: #0f5c54;\n  color: white;\n}\n\n.btn.secondary {\n  border: 1px solid #ccc;\n  color: #333;\n}\n\n/* FEATURES */\n.hero-features {\n  display: flex;\n  gap: 20px;\n  font-size: 14px;\n  color: #666;\n}\n\n/* RIGHT IMAGE */\n.hero-image {\n  flex: 1;\n}\n\n.hero-image img {\n  width: 100%;\n  border-radius: 12px;\n}\n\n/* 📱 MOBILE */\n@media (max-width: 768px) {\n  .hero-container {\n    flex-direction: column;\n    text-align: center;\n  }\n\n  .hero-content h1 {\n    font-size: 32px;\n  }\n\n  .hero-features {\n    flex-direction: column;\n    gap: 10px;\n  }\n\n  .hero-buttons {\n    justify-content: center;\n  }\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 30,
+        "padding-block-end": 30
+      }
+    },
     "hero_jTwyDe": {
       "type": "hero",
       "blocks": {
@@ -549,6 +560,113 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
+    },
+    "hero_Kra9kQ": {
+      "type": "hero",
+      "blocks": {
+        "text_Q6pVtq": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Make this Mother's Day unforgettable</h6>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_bhirgn": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Give the gift of comfort, care and better living.</h5>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_UBzL8E": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_Q6pVtq",
+        "text_bhirgn",
+        "button_UBzL8E"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/magic_edit_TUFISTROM2V3WmMjMSM4MWRkMjdiYTFmMDVjMTA3MWNmYTdmY2JmZmFiMTY5NiM4NjUjI1RSQU5TRk9STUFUSU9OX1JFUVVFU1Q.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "full-width",
+        "section_height": "custom",
+        "section_height_custom": 0,
+        "color_scheme": "scheme-13ba8f81-d5d0-4099-9a58-6c19d9168b54",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
     }
   },
   "order": [
@@ -559,6 +677,8 @@
     "custom_liquid_An3LWg",
     "custom_liquid_TL7YtH",
     "custom_liquid_EyQckD",
-    "hero_jTwyDe"
+    "custom_liquid_CjzQ7j",
+    "hero_jTwyDe",
+    "hero_Kra9kQ"
   ]
 }
