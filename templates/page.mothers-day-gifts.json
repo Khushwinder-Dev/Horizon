@@ -431,6 +431,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_EyQckD": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"trust-section\">\n  <div class=\"container\">\n\n    <div class=\"trust-grid\">\n\n      <!-- Item 1 -->\n      <div class=\"trust-item\">\n        <div class=\"icon\">\n          <!-- Money Back -->\n          <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.5\">\n            <path d=\"M12 2a10 10 0 1 0 10 10\"/>\n            <path d=\"M12 6v6l4 2\"/>\n          </svg>\n        </div>\n        <div>\n          <h4>30-Day Money Back</h4>\n          <p>Love it or get your money back.</p>\n        </div>\n      </div>\n\n      <!-- Item 2 -->\n      <div class=\"trust-item\">\n        <div class=\"icon\">\n          <!-- Quality -->\n          <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.5\">\n            <path d=\"M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3z\"/>\n          </svg>\n        </div>\n        <div>\n          <h4>Premium Quality</h4>\n          <p>Made with high-quality, durable materials.</p>\n        </div>\n      </div>\n\n      <!-- Item 3 -->\n      <div class=\"trust-item\">\n        <div class=\"icon\">\n          <!-- Lock -->\n          <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.5\">\n            <rect x=\"5\" y=\"11\" width=\"14\" height=\"10\" rx=\"2\"/>\n            <path d=\"M8 11V7a4 4 0 0 1 8 0v4\"/>\n          </svg>\n        </div>\n        <div>\n          <h4>Secure Checkout</h4>\n          <p>100% safe and secure payments.</p>\n        </div>\n      </div>\n\n      <!-- Item 4 -->\n      <div class=\"trust-item\">\n        <div class=\"icon\">\n          <!-- Support -->\n          <svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.5\">\n            <path d=\"M18 10a6 6 0 1 0-12 0v4a2 2 0 0 0 2 2h2\"/>\n            <path d=\"M18 14a2 2 0 0 1-2 2h-2\"/>\n          </svg>\n        </div>\n        <div>\n          <h4>Dedicated Support</h4>\n          <p>We’re here to help you anytime.</p>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</section>\n\n<style>\n.trust-section {\n  padding: 30px 20px;\n}\n\n.container {\n  max-width: 1200px;\n  margin: auto;\n}\n\n.trust-grid {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 20px;\n\n  background: linear-gradient(135deg, #0F4F4F, #0c3f3f);\n  color: #fff;\n  padding: 30px;\n  border-radius: 12px;\n}\n\n.trust-item {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n  flex: 1;\n}\n\n.icon {\n  min-width: 45px;\n}\n\n.trust-item h4 {\n  margin: 0;\n  font-size: 15px;\n  font-weight: 600;\n}\n\n.trust-item p {\n  margin: 4px 0 0;\n  font-size: 13px;\n  color: #dcdcdc;\n}\n\n/* Tablet */\n@media(max-width: 992px){\n  .trust-grid {\n    flex-wrap: wrap;\n  }\n\n  .trust-item {\n    flex: 1 1 45%;\n  }\n}\n\n/* Mobile */\n@media(max-width: 600px){\n  .trust-grid {\n    flex-direction: column;\n    text-align: center;\n  }\n\n  .trust-item {\n    flex-direction: column;\n  }\n}\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -439,6 +450,7 @@
     "product_list_fiek9V",
     "custom_liquid_q4thJW",
     "custom_liquid_An3LWg",
-    "custom_liquid_TL7YtH"
+    "custom_liquid_TL7YtH",
+    "custom_liquid_EyQckD"
   ]
 }
