@@ -59,111 +59,15 @@
         "padding-block-end": 80
       }
     },
-    "hero_Y3UY8Y": {
-      "type": "hero",
-      "blocks": {
-        "text_MLNaTc": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>New arrivals</h2>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "h1",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_8cDUAk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers.</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 32,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_YiPgfM": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_MLNaTc",
-        "text_8cDUAk",
-        "button_YiPgfM"
-      ],
-      "name": "t:names.hero",
+    "custom_liquid_pBpcX6": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
       "settings": {
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/ChatGPT_Image_May_6_2026_01_53_10_PM.png",
-        "media_type_2": "image",
-        "stack_media_on_mobile": false,
-        "custom_mobile_media": false,
-        "media_type_1_mobile": "image",
-        "media_type_2_mobile": "image",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "custom_liquid": "<section class=\"image-banner\">\n  <img \n    src=\"https://ortheonposture.com/cdn/shop/files/ChatGPT_Image_May_6_2026_01_53_10_PM.png?v=1778055832&width=3840\" \n    alt=\"Mother's Day Banner\">\n</section>\n\n<style>\n.image-banner {\n  width: 100%;\n  height: 100vh; /* full screen height */\n  overflow: hidden;\n}\n\n.image-banner img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover; /* fills without distortion */\n  display: block;\n}\n\n/* Mobile optimization */\n@media (max-width: 768px) {\n  .image-banner {\n    height: 60vh; /* better for mobile */\n  }\n}\n</style>",
+        "color_scheme": "",
         "section_width": "page-width",
-        "section_height": "large",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "toggle_overlay": true,
-        "overlay_color": "#00000026",
-        "overlay_style": "gradient",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "product_list_fiek9V": {
@@ -551,7 +455,7 @@
   },
   "order": [
     "main",
-    "hero_Y3UY8Y",
+    "custom_liquid_pBpcX6",
     "product_list_fiek9V",
     "custom_liquid_q4thJW",
     "custom_liquid_An3LWg",
