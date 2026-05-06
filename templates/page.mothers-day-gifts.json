@@ -135,6 +135,9 @@
         "text_hXq6a3",
         "button_FPEwtC"
       ],
+      "custom_css": [
+        "@media (max-width: 768px) {.hero__media {height: fit-content; background:red;}}"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
