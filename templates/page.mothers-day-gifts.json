@@ -57,15 +57,114 @@
         "padding-block-end": 80
       }
     },
-    "custom_liquid_aYXH8H": {
-      "type": "custom-liquid",
-      "name": "t:names.custom_liquid",
+    "hero_QX8gLM": {
+      "type": "hero",
+      "blocks": {
+        "text_7XwcpM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>New arrivals</h2>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h1",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_TA6AEi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Made with care and unconditionally loved by our customers.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 32,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_mGetc9": {
+          "type": "button",
+          "name": "t:names.button",
+          "disabled": true,
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_7XwcpM",
+        "text_TA6AEi",
+        "button_mGetc9"
+      ],
+      "name": "t:names.hero",
       "settings": {
-        "custom_liquid": "<section class=\"hero\">\n\n  <div class=\"hero-overlay\">\n    <div class=\"hero-container\">\n\n      <div class=\"hero-content\">\n        <span class=\"badge\">❤️ HAPPY MOTHER'S DAY</span>\n\n        <h1>\n          Give Her the <br>\n          <span>Comfort</span><br>\n          She Deserves\n        </h1>\n\n        <p>\n          Thoughtful wellness gifts for her posture, comfort\n          and everyday well-being.\n        </p>\n\n        <div class=\"hero-buttons\">\n          <a href=\"https://ortheonposture.com/collections/all\" class=\"btn primary\">Shop Gifts</a>\n          <a href=\"https://ortheonposture.com/collections/all\" class=\"btn secondary\">Best Sellers</a>\n        </div>\n\n        <div class=\"hero-features\">\n          <div>🚚 Free Shipping</div>\n          <div>↩️ 30-Day Returns</div>\n          <div>⭐ Trusted by 10K+</div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n\n</section>\n\n<style>\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Segoe UI\", sans-serif;\n}\n\n/* HERO BACKGROUND */\n.hero {\n  background: url(\"https://ortheonposture.com/cdn/shop/files/magic_edit_TUFISTROM2V3WmMjMSM4MWRkMjdiYTFmMDVjMTA3MWNmYTdmY2JmZmFiMTY5NiM4NjUjI1RSQU5TRk9STUFUSU9OX1JFUVVFU1Q.png?v=1778054925&width=3840\") center/cover no-repeat;\n  position: relative;\n}\n\n/* Overlay for readability */\n.hero-overlay {\n  padding: 80px 20px;\n}\n\n/* Container */\n\n\n/* CONTENT */\n.hero-content {\n  max-width: 550px;\n}\n\n/* Badge */\n.badge {\n  background: #ffe5d6;\n  color: #c86b4f;\n  padding: 6px 14px;\n  border-radius: 20px;\n  font-size: 14px;\n  display: inline-block;\n  margin-bottom: 15px;\n}\n\n/* Heading */\n.hero-content h1 {\n  font-size: 52px;\n  line-height: 1.2;\n  color: #222;\n}\n\n.hero-content h1 span {\n  color: #0f5c54;\n}\n\n/* Text */\n.hero-content p {\n  margin: 20px 0;\n  color: #555;\n}\n\n/* Buttons */\n.hero-buttons {\n  display: flex;\n  gap: 15px;\n  margin-bottom: 20px;\n}\n\n.btn {\n  padding: 12px 24px;\n  border-radius: 30px;\n  text-decoration: none;\n  font-weight: 500;\n}\n\n.btn.primary {\n  background: #0f5c54;\n  color: white;\n}\n\n.btn.secondary {\n  border: 1px solid #ccc;\n  color: #333;\n  background: white;\n}\n\n/* Features */\n.hero-features {\n  display: flex;\n  gap: 20px;\n  font-size: 14px;\n  color: #666;\n}\n\n/* 📱 MOBILE */\n@media (max-width: 768px) {\n\n  .hero-overlay {\n    background: rgba(246, 241, 235, 0.92);\n    text-align: center;\n  }\n\n  .hero-content {\n    max-width: 100%;\n  }\n\n  .hero-content h1 {\n    font-size: 32px;\n  }\n\n  .hero-buttons {\n    justify-content: center;\n  }\n\n  .hero-features {\n    flex-direction: column;\n    gap: 10px;\n  }\n}\n</style>",
-        "color_scheme": "",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_May_6_2026_01_53_10_PM.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "full-screen",
+        "section_height_custom": 100,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
       }
     },
     "product_list_fiek9V": {
@@ -453,7 +552,7 @@
   },
   "order": [
     "main",
-    "custom_liquid_aYXH8H",
+    "hero_QX8gLM",
     "product_list_fiek9V",
     "custom_liquid_q4thJW",
     "custom_liquid_An3LWg",
