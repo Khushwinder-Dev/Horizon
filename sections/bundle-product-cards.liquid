@@ -42,6 +42,16 @@
       text-align: right;
     }
 
+    .bundle-product-cards__subtitle {
+      margin: 0 0 1.5rem;
+      max-width: 760px;
+      color: #5f4e3d;
+      font-size: 1rem;
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+      opacity: 0.92;
+    }
+
     .bundle-product-cards__grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -119,8 +129,19 @@
       margin: 0;
       color: #382915;
       font-weight: 700;
-      font-size: 1.125rem;
-      line-height: 1.3;
+      font-size: clamp(0.75rem, 0.9vw, 0.95rem);
+      line-height: 1.4;
+      letter-spacing: -0.01em;
+      text-transform: none;
+    }
+
+    .bundle-product-cards__subtitle-card {
+      margin: 0;
+      color: #5f4e3d;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      letter-spacing: -0.01em;
+      opacity: 0.95;
     }
 
     .bundle-product-cards__caption {
@@ -235,6 +256,11 @@
       >
         {{ section.settings.heading_text }}
       </h2>
+      {% if section.settings.heading_subtitle != blank %}
+        <p class="bundle-product-cards__subtitle bundle-product-cards__heading--{{ section.settings.heading_alignment }}">
+          {{ section.settings.heading_subtitle }}
+        </p>
+      {% endif %}
     {% endif %}
 
     <div class="bundle-product-cards__grid">
@@ -285,6 +311,9 @@
 
             <div class="bundle-product-cards__body">
               <h3 class="bundle-product-cards__title">{{ bundle_title }}</h3>
+              {% if block.settings.bundle_subtitle != blank %}
+                <p class="bundle-product-cards__subtitle-card">{{ block.settings.bundle_subtitle }}</p>
+              {% endif %}
               <p class="bundle-product-cards__caption{% unless block.settings.show_caption %} bundle-product-cards__caption--hidden{% endunless %}">
                 {{ bundle_caption }}
               </p>
@@ -391,7 +420,13 @@
         "type": "text",
         "id": "heading_text",
         "label": "Heading text",
-        "default": "Complete bundle support packs"
+        "default": "Everyday Comfort Combo for Mom"
+      },
+      {
+        "type": "textarea",
+        "id": "heading_subtitle",
+        "label": "Section subtitle",
+        "default": "Support her everyday comfort with curated bundles that deliver relief and posture support."
       },
       {
         "type": "select",
@@ -420,6 +455,12 @@
             "id": "bundle_title",
             "label": "Bundle title",
             "default": "Bundle title"
+          },
+          {
+            "type": "text",
+            "id": "bundle_subtitle",
+            "label": "Bundle subtitle",
+            "default": "Supports posture and comfort"
           },
           {
             "type": "textarea",
