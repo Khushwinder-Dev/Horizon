@@ -136,7 +136,7 @@
         "button_FPEwtC"
       ],
       "custom_css": [
-        "@media (max-width: 768px) {.hero__media {height: fit-content; background: red; } div#Hero-template--20715900272796__hero_dFxQUA {min-height: 61vh; }}"
+        "@media (max-width: 768px) {.hero__media {height: fit-content; } div#Hero-template--20715900272796__hero_dFxQUA {min-height: 61vh; }}"
       ],
       "name": "t:names.hero",
       "settings": {
