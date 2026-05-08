@@ -560,11 +560,12 @@
         "bundle_card_GTXTjA": {
           "type": "bundle_card",
           "settings": {
+            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
             "bundle_title": "Everyday Comfort Combo for Mom",
             "bundle_subtitle": "Back Support + Posture Corrector",
             "bundle_caption": "Relieves pain and improves posture for all-day comfort.",
             "show_caption": true,
-            "product_1": "",
+            "product_1": "ortheon-adjustable-spine-trainer",
             "product_2": "",
             "enabled": true
           }
