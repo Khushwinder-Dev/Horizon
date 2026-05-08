@@ -573,12 +573,13 @@
         "bundle_card_RFxFzD": {
           "type": "bundle_card",
           "settings": {
+            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
             "bundle_title": "Mom’s Posture Care Bundle",
             "bundle_subtitle": "Posture Corrector + Shoulder Brace",
             "bundle_caption": "Improves posture while stabilizing shoulders.",
             "show_caption": true,
-            "product_1": "",
-            "product_2": "",
+            "product_1": "ortheon-adjustable-spine-trainer",
+            "product_2": "ortheon-advanced-spine-alignment-brace",
             "enabled": true
           }
         },
@@ -589,8 +590,8 @@
             "bundle_subtitle": "Full Back Support + Lumbar Belt",
             "bundle_caption": "Maximum support for lower and upper back relief.",
             "show_caption": true,
-            "product_1": "",
-            "product_2": "",
+            "product_1": "ortheon-adjustable-spine-trainer",
+            "product_2": "ortheon-advanced-spine-alignment-brace",
             "enabled": true
           }
         }
