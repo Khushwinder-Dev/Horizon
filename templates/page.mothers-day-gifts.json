@@ -172,6 +172,62 @@
         "padding-block-end": 40
       }
     },
+    "bundle_product_cards_qRcQgD": {
+      "type": "bundle-product-cards",
+      "blocks": {
+        "bundle_card_GTXTjA": {
+          "type": "bundle_card",
+          "settings": {
+            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
+            "bundle_title": "Everyday Comfort Combo for Mom",
+            "bundle_subtitle": "Back Support + Posture Corrector",
+            "bundle_caption": "Relieves pain and improves posture for all-day comfort.",
+            "show_caption": true,
+            "product_1": "ortheon-adjustable-spine-trainer",
+            "product_2": "ortheon-advanced-spine-alignment-brace",
+            "enabled": true
+          }
+        },
+        "bundle_card_RFxFzD": {
+          "type": "bundle_card",
+          "settings": {
+            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
+            "bundle_title": "Mom’s Posture Care Bundle",
+            "bundle_subtitle": "Posture Corrector + Shoulder Brace",
+            "bundle_caption": "Improves posture while stabilizing shoulders.",
+            "show_caption": true,
+            "product_1": "ortheon-adjustable-spine-trainer",
+            "product_2": "ortheon-advanced-spine-alignment-brace",
+            "enabled": true
+          }
+        },
+        "bundle_card_daHLzx": {
+          "type": "bundle_card",
+          "settings": {
+            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
+            "bundle_title": "Complete Back Relief Kit for Mom",
+            "bundle_subtitle": "Full Back Support + Lumbar Belt",
+            "bundle_caption": "Maximum support for lower and upper back relief.",
+            "show_caption": true,
+            "product_1": "ortheon-adjustable-spine-trainer",
+            "product_2": "ortheon-advanced-spine-alignment-brace",
+            "enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "bundle_card_GTXTjA",
+        "bundle_card_RFxFzD",
+        "bundle_card_daHLzx"
+      ],
+      "name": "Bundle Product Cards",
+      "settings": {
+        "show_heading": true,
+        "heading_text": "Everyday Comfort Combo for Mom",
+        "heading_subtitle": "Support her everyday comfort with curated bundles that deliver relief and posture support.",
+        "heading_alignment": "left"
+      }
+    },
     "custom_liquid_An3LWg": {
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
@@ -553,72 +609,17 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
-    },
-    "bundle_product_cards_qRcQgD": {
-      "type": "bundle-product-cards",
-      "blocks": {
-        "bundle_card_GTXTjA": {
-          "type": "bundle_card",
-          "settings": {
-            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
-            "bundle_title": "Everyday Comfort Combo for Mom",
-            "bundle_subtitle": "Back Support + Posture Corrector",
-            "bundle_caption": "Relieves pain and improves posture for all-day comfort.",
-            "show_caption": true,
-            "product_1": "ortheon-adjustable-spine-trainer",
-            "product_2": "ortheon-advanced-spine-alignment-brace",
-            "enabled": true
-          }
-        },
-        "bundle_card_RFxFzD": {
-          "type": "bundle_card",
-          "settings": {
-            "bundle_image": "shopify://shop_images/Luxury_gift_set_posture_support_202605062212.jpg",
-            "bundle_title": "Mom’s Posture Care Bundle",
-            "bundle_subtitle": "Posture Corrector + Shoulder Brace",
-            "bundle_caption": "Improves posture while stabilizing shoulders.",
-            "show_caption": true,
-            "product_1": "ortheon-adjustable-spine-trainer",
-            "product_2": "ortheon-advanced-spine-alignment-brace",
-            "enabled": true
-          }
-        },
-        "bundle_card_daHLzx": {
-          "type": "bundle_card",
-          "settings": {
-            "bundle_title": "Complete Back Relief Kit for Mom",
-            "bundle_subtitle": "Full Back Support + Lumbar Belt",
-            "bundle_caption": "Maximum support for lower and upper back relief.",
-            "show_caption": true,
-            "product_1": "ortheon-adjustable-spine-trainer",
-            "product_2": "ortheon-advanced-spine-alignment-brace",
-            "enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "bundle_card_GTXTjA",
-        "bundle_card_RFxFzD",
-        "bundle_card_daHLzx"
-      ],
-      "name": "Bundle Product Cards",
-      "settings": {
-        "show_heading": true,
-        "heading_text": "Everyday Comfort Combo for Mom",
-        "heading_subtitle": "Support her everyday comfort with curated bundles that deliver relief and posture support.",
-        "heading_alignment": "left"
-      }
     }
   },
   "order": [
     "main",
     "hero_dFxQUA",
+    "bundle_product_cards_qRcQgD",
     "custom_liquid_An3LWg",
     "product_list_fiek9V",
     "custom_liquid_q4thJW",
     "custom_liquid_TL7YtH",
     "custom_liquid_EyQckD",
-    "hero_jTwyDe",
-    "bundle_product_cards_qRcQgD"
+    "hero_jTwyDe"
   ]
 }
