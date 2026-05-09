@@ -14,9 +14,38 @@
     "header_announcements_9jGBFp": {
       "type": "header-announcements",
       "blocks": {
+        "announcement_ycQnL3": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "💝 Limited-Time Mother’s Day Bundle Event",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
+        "announcement_RJqyMb": {
+          "type": "_announcement",
+          "name": "t:names.announcement",
+          "settings": {
+            "text": "🌸 Mother’s Day Sale — Curated Wellness Bundles Now Live",
+            "link": "",
+            "font": "var(--font-subheading--family)",
+            "font_size": "0.75rem",
+            "weight": "",
+            "letter_spacing": "normal",
+            "case": "none"
+          },
+          "blocks": {}
+        },
         "announcement_tMdjTU": {
           "type": "_announcement",
           "name": "t:names.announcement",
+          "disabled": true,
           "settings": {
             "text": "💪 Improve Posture & Reduce Back Pain – Starting Today",
             "link": "",
@@ -30,6 +59,7 @@
         },
         "announcement_BxgCk9": {
           "type": "_announcement",
+          "disabled": true,
           "settings": {
             "text": "⏳ Limited Stock Available – Order Now Before It’s Gone!",
             "link": "",
@@ -43,6 +73,8 @@
         }
       },
       "block_order": [
+        "announcement_ycQnL3",
+        "announcement_RJqyMb",
         "announcement_tMdjTU",
         "announcement_BxgCk9"
       ],
