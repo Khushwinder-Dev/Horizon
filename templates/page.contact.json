@@ -276,11 +276,11 @@
                       "type": "text",
                       "name": "t:names.heading",
                       "settings": {
-                        "text": "<h1><em>Precision.</em></h1>",
+                        "text": "<h2><em>Precision.</em></h2>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "h1",
                         "font": "var(--font-body--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
