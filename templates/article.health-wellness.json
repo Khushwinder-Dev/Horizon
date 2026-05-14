@@ -19,9 +19,9 @@
           "settings": {
             "text": "<h1>{{ article.title }}</h1>",
             "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h2",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h3",
             "font": "var(--font-primary--family)",
             "font_size": "",
             "line_height": "normal",
@@ -44,22 +44,21 @@
           "name": "Details",
           "static": true,
           "settings": {
-            "show_date": true,
+            "show_date": false,
             "show_author": false,
             "type_preset": "",
-            "alignment": "center",
+            "alignment": "right",
             "show_alignment": true,
-            "padding-block-start": 24,
+            "padding-block-start": 0,
             "padding-block-end": 0
           },
           "blocks": {}
         },
         "blog-post-image": {
-          "type": "image",
-          "name": "Featured image",
+          "type": "_blog-post-featured-image",
           "static": true,
           "settings": {
-            "image_ratio": "landscape",
+            "image_ratio": "adapt",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",

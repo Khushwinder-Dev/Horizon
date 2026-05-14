@@ -1,5 +1,3 @@
-
-
 <div class="blog-post-content rte">
   <rte-formatter>
     {{ article.content }}
@@ -7,10 +5,70 @@
 </div>
 
 {% stylesheet %}
+.blog-post-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+/* Ensure all blog elements align properly */
+.blog-post-content p,
+.blog-post-content h1,
+.blog-post-content h2,
+.blog-post-content h3,
+.blog-post-content h4,
+.blog-post-content h5,
+.blog-post-content h6,
+.blog-post-content ul,
+.blog-post-content ol,
+.blog-post-content li,
+.blog-post-content blockquote {
+  text-align: left;
+}
+
+/* Make images responsive */
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+/* Improve spacing */
+.blog-post-content p {
+  margin-bottom: 18px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
   .blog-post-content {
-    max-width: var(--normal-content-width);
-    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 1.7;
   }
+
+  .blog-post-content img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .blog-post-content h1 {
+    font-size: 28px;
+  }
+
+  .blog-post-content h2 {
+    font-size: 24px;
+  }
+
+  .blog-post-content h3 {
+    font-size: 20px;
+  }
+}
 {% endstylesheet %}
 
 {% schema %}
