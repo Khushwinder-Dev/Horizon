@@ -978,6 +978,137 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "section_PMRdqP": {
+      "type": "section",
+      "blocks": {
+        "group_QBzgPd": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "group_8bpjUY": {
+          "type": "group",
+          "name": "t:names.group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "custom_liquid_M8Xqbj": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<section class=\"ortheon-support-banner\">\n  <div class=\"ortheon-support-container\">\n\n    <div class=\"ortheon-support-content\">\n\n      <div class=\"ortheon-support-icon\">\n        🎧\n      </div>\n\n      <h2>Still Need Help?</h2>\n\n      <div class=\"ortheon-support-line\"></div>\n\n      <p>\n        Our support team is ready to assist you.<br>\n        Reach out anytime!\n      </p>\n\n      <a href=\"mailto:ortheonposture@gmail.com\" class=\"ortheon-support-btn\">\n        Email Us Now →\n      </a>\n\n    </div>\n\n    <div class=\"ortheon-support-image\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0740/7668/4444/files/Posture_corrector_with_arrows_202605061114_75a39c2c-c753-4fb7-81c0-d89c1d1f9b53.jpg?v=1779111784\"\n        alt=\"Posture Corrector\"\n        loading=\"lazy\"\n      >\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-support-banner {\n    padding: 60px 24px;\n    background: #ffffff;\n  }\n\n  .ortheon-support-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    background: linear-gradient(135deg, #004f50 0%, #005b5c 50%, #006a6b 100%);\n    border-radius: 24px;\n    overflow: hidden;\n    padding: 55px 60px;\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    align-items: center;\n    gap: 40px;\n    position: relative;\n  }\n\n  .ortheon-support-container::before,\n  .ortheon-support-container::after {\n    content: \"\";\n    position: absolute;\n    width: 180px;\n    height: 180px;\n    background-image: radial-gradient(rgba(255,255,255,0.15) 2px, transparent 2px);\n    background-size: 18px 18px;\n    opacity: 0.6;\n  }\n\n  .ortheon-support-container::before {\n    top: 0;\n    left: 0;\n  }\n\n  .ortheon-support-container::after {\n    bottom: 0;\n    right: 0;\n  }\n\n  .ortheon-support-content {\n    position: relative;\n    z-index: 2;\n    color: #ffffff;\n  }\n\n  .ortheon-support-icon {\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    background: rgba(255,255,255,0.12);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 38px;\n    margin-bottom: 24px;\n    backdrop-filter: blur(8px);\n  }\n\n  .ortheon-support-content h2 {\n    font-size: clamp(36px, 4vw, 58px);\n    line-height: 1.1;\n    margin: 0;\n    font-weight: 800;\n    color: #ffffff;\n  }\n\n  .ortheon-support-line {\n    width: 70px;\n    height: 4px;\n    background: #39d5d6;\n    border-radius: 10px;\n    margin: 24px 0;\n  }\n\n  .ortheon-support-content p {\n    font-size: 18px;\n    line-height: 1.8;\n    color: rgba(255,255,255,0.88);\n    margin: 0 0 34px;\n    max-width: 420px;\n  }\n\n  .ortheon-support-btn {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    padding: 16px 34px;\n    background: #ffffff;\n    color: #005b5c;\n    border-radius: 12px;\n    text-decoration: none;\n    font-size: 16px;\n    font-weight: 700;\n    transition: 0.3s ease;\n  }\n\n  .ortheon-support-btn:hover {\n    transform: translateY(-2px);\n    background: #f3f4f6;\n  }\n\n  .ortheon-support-image {\n    position: relative;\n    z-index: 2;\n    text-align: center;\n  }\n\n  .ortheon-support-image img {\n    width: 100%;\n    max-width: 420px;\n    display: block;\n    margin: 0 auto;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-support-container {\n      grid-template-columns: 1fr;\n      text-align: center;\n      padding: 50px 36px;\n    }\n\n    .ortheon-support-line {\n      margin-left: auto;\n      margin-right: auto;\n    }\n\n    .ortheon-support-content p {\n      margin-left: auto;\n      margin-right: auto;\n      max-width: 100%;\n    }\n\n    .ortheon-support-btn {\n      margin: 0 auto;\n    }\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-support-banner {\n      padding: 40px 18px;\n    }\n\n    .ortheon-support-container {\n      padding: 42px 24px;\n      border-radius: 20px;\n      gap: 24px;\n    }\n\n    .ortheon-support-icon {\n      width: 72px;\n      height: 72px;\n      font-size: 32px;\n      margin: 0 auto 22px;\n    }\n\n    .ortheon-support-content h2 {\n      font-size: 38px;\n    }\n\n    .ortheon-support-content p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n\n    .ortheon-support-btn {\n      width: 100%;\n    }\n\n    .ortheon-support-image img {\n      max-width: 280px;\n    }\n  }\n</style>"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "custom_liquid_M8Xqbj"
+          ]
+        }
+      },
+      "block_order": [
+        "group_QBzgPd",
+        "group_8bpjUY"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "small",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -987,6 +1118,7 @@
     "section_zqPkGw",
     "section_C4wmpj",
     "custom_liquid_QagKkW",
-    "custom_liquid_JJGrQD"
+    "custom_liquid_JJGrQD",
+    "section_PMRdqP"
   ]
 }
