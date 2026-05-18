@@ -822,6 +822,7 @@
       "block_order": [
         "group_3Hc86b"
       ],
+      "disabled": true,
       "name": "t:names.rich_text_section",
       "settings": {
         "content_direction": "column",
@@ -891,8 +892,8 @@
   "order": [
     "main",
     "section_LbHwwa",
+    "hero_t773nL",
     "section_zqPkGw",
-    "section_C4wmpj",
-    "hero_t773nL"
+    "section_C4wmpj"
   ]
 }
