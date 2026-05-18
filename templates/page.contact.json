@@ -968,17 +968,6 @@
         "padding-block-end": 0
       }
     },
-    "custom_liquid_JJGrQD": {
-      "type": "custom-liquid",
-      "name": "t:names.custom_liquid",
-      "settings": {
-        "custom_liquid": "<section class=\"ortheon-help-cta\">\n  <div class=\"ortheon-help-box\">\n\n    <div class=\"ortheon-help-left\">\n      <div class=\"ortheon-help-icon\">🎧</div>\n\n      <div class=\"ortheon-help-text\">\n        <h2>Still Need Help?</h2>\n        <p>\n          Our support team is ready to assist you.<br>\n          Reach out anytime!\n        </p>\n      </div>\n    </div>\n\n    <a href=\"mailto:ortheonposture@gmail.com\" class=\"ortheon-help-btn\">\n      Email Us Now →\n    </a>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-help-cta {\n     padding: 50px 0px;\n  }\n\n  .ortheon-help-box {\n    background: #005b5c;\n    border-radius: 18px;\n    padding: 34px 56px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 30px;\n    color: #ffffff;\n  }\n\n  .ortheon-help-left {\n    display: flex;\n    align-items: center;\n    gap: 28px;\n  }\n\n  .ortheon-help-icon {\n    width: 96px;\n    height: 96px;\n    min-width: 96px;\n    border-radius: 50%;\n    border: 3px solid rgba(255,255,255,0.75);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 42px;\n  }\n\n  .ortheon-help-text h2 {\n    margin: 0 0 8px;\n    font-size: clamp(26px, 3vw, 36px);\n    line-height: 1.2;\n    font-weight: 800;\n    color: #ffffff;\n  }\n\n  .ortheon-help-text p {\n    margin: 0;\n    font-size: 17px;\n    line-height: 1.6;\n    color: rgba(255,255,255,0.9);\n  }\n\n  .ortheon-help-btn {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: #ffffff;\n    color: #005b5c;\n    padding: 15px 30px;\n    border-radius: 10px;\n    font-size: 16px;\n    font-weight: 800;\n    text-decoration: none;\n    white-space: nowrap;\n    transition: 0.3s ease;\n  }\n\n  .ortheon-help-btn:hover {\n    background: #eef7f7;\n    transform: translateY(-2px);\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-help-box {\n      padding: 34px 24px;\n      flex-direction: column;\n      text-align: center;\n    }\n\n    .ortheon-help-left {\n      flex-direction: column;\n      gap: 18px;\n    }\n\n    .ortheon-help-icon {\n      width: 82px;\n      height: 82px;\n      min-width: 82px;\n      font-size: 34px;\n    }\n\n    .ortheon-help-text p {\n      font-size: 16px;\n    }\n\n    .ortheon-help-btn {\n      width: 100%;\n    }\n  }\n</style>",
-        "color_scheme": "",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "section_PMRdqP": {
       "type": "section",
       "blocks": {
@@ -1121,6 +1110,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_JJGrQD": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-help-cta\">\n  <div class=\"ortheon-help-box\">\n\n    <div class=\"ortheon-help-left\">\n      <div class=\"ortheon-help-icon\">🎧</div>\n\n      <div class=\"ortheon-help-text\">\n        <h2>Still Need Help?</h2>\n        <p>\n          Our support team is ready to assist you.<br>\n          Reach out anytime!\n        </p>\n      </div>\n    </div>\n\n    <a href=\"mailto:ortheonposture@gmail.com\" class=\"ortheon-help-btn\">\n      Email Us Now →\n    </a>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-help-cta {\n     padding: 50px 0px;\n  }\n\n  .ortheon-help-box {\n    background: #005b5c;\n    border-radius: 18px;\n    padding: 34px 56px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 30px;\n    color: #ffffff;\n  }\n\n  .ortheon-help-left {\n    display: flex;\n    align-items: center;\n    gap: 28px;\n  }\n\n  .ortheon-help-icon {\n    width: 96px;\n    height: 96px;\n    min-width: 96px;\n    border-radius: 50%;\n    border: 3px solid rgba(255,255,255,0.75);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 42px;\n  }\n\n  .ortheon-help-text h2 {\n    margin: 0 0 8px;\n    font-size: clamp(26px, 3vw, 36px);\n    line-height: 1.2;\n    font-weight: 800;\n    color: #ffffff;\n  }\n\n  .ortheon-help-text p {\n    margin: 0;\n    font-size: 17px;\n    line-height: 1.6;\n    color: rgba(255,255,255,0.9);\n  }\n\n  .ortheon-help-btn {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: #ffffff;\n    color: #005b5c;\n    padding: 15px 30px;\n    border-radius: 10px;\n    font-size: 16px;\n    font-weight: 800;\n    text-decoration: none;\n    white-space: nowrap;\n    transition: 0.3s ease;\n  }\n\n  .ortheon-help-btn:hover {\n    background: #eef7f7;\n    transform: translateY(-2px);\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-help-box {\n      padding: 34px 24px;\n      flex-direction: column;\n      text-align: center;\n    }\n\n    .ortheon-help-left {\n      flex-direction: column;\n      gap: 18px;\n    }\n\n    .ortheon-help-icon {\n      width: 82px;\n      height: 82px;\n      min-width: 82px;\n      font-size: 34px;\n    }\n\n    .ortheon-help-text p {\n      font-size: 16px;\n    }\n\n    .ortheon-help-btn {\n      width: 100%;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -1130,7 +1130,7 @@
     "section_zqPkGw",
     "section_C4wmpj",
     "custom_liquid_QagKkW",
-    "custom_liquid_JJGrQD",
-    "section_PMRdqP"
+    "section_PMRdqP",
+    "custom_liquid_JJGrQD"
   ]
 }
