@@ -447,6 +447,7 @@
       "block_order": [
         "group_wK3VtE"
       ],
+      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
@@ -672,6 +673,7 @@
         "group_awirAp",
         "group_Dx9Gyn"
       ],
+      "disabled": true,
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
@@ -822,6 +824,7 @@
       "block_order": [
         "group_aeyxM3"
       ],
+      "disabled": true,
       "name": "t:names.rich_text_section",
       "settings": {
         "content_direction": "column",
@@ -894,6 +897,28 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_dp3FtB": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-values-section\">\n  <div class=\"ortheon-values-container\">\n\n    <h2 class=\"ortheon-values-title\">Our Values</h2>\n\n    <div class=\"ortheon-values-grid\">\n\n      <!-- LEFT -->\n      <div class=\"ortheon-values-column\">\n\n        <div class=\"ortheon-value-item\">\n          <div class=\"ortheon-value-icon\">⚖️</div>\n\n          <div>\n            <h3>Integrity</h3>\n            <p>We do what’s right, always.</p>\n          </div>\n        </div>\n\n        <div class=\"ortheon-value-item\">\n          <div class=\"ortheon-value-icon\">💡</div>\n\n          <div>\n            <h3>Innovation</h3>\n            <p>We constantly improve to bring you the best.</p>\n          </div>\n        </div>\n\n      </div>\n\n      <!-- CENTER IMAGE -->\n      <div class=\"ortheon-values-center\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0000/0000/files/spine-image.png\"\n          alt=\"Spine Illustration\"\n          loading=\"lazy\"\n        >\n      </div>\n\n      <!-- RIGHT -->\n      <div class=\"ortheon-values-column\">\n\n        <div class=\"ortheon-value-item\">\n          <div class=\"ortheon-value-icon\">🛍️</div>\n\n          <div>\n            <h3>Customer Focus</h3>\n            <p>Your health and satisfaction are our top priority.</p>\n          </div>\n        </div>\n\n        <div class=\"ortheon-value-item\">\n          <div class=\"ortheon-value-icon\">🌿</div>\n\n          <div>\n            <h3>Care & Impact</h3>\n            <p>We care about your journey to a better you.</p>\n          </div>\n        </div>\n\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  .ortheon-values-section {\n    padding: 80px 24px;\n    background: #ffffff;\n  }\n\n  .ortheon-values-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .ortheon-values-title {\n    text-align: center;\n    font-size: clamp(32px, 4vw, 48px);\n    font-weight: 700;\n    color: #111827;\n    margin: 0 0 60px;\n  }\n\n  .ortheon-values-grid {\n    display: grid;\n    grid-template-columns: 1fr auto 1fr;\n    align-items: center;\n    gap: 50px;\n  }\n\n  .ortheon-values-column {\n    display: flex;\n    flex-direction: column;\n    gap: 40px;\n  }\n\n  .ortheon-value-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 18px;\n  }\n\n  .ortheon-value-icon {\n    min-width: 68px;\n    width: 68px;\n    height: 68px;\n    border-radius: 50%;\n    background: #f3f7f7;\n    color: #005b5c;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 30px;\n  }\n\n  .ortheon-value-item h3 {\n    margin: 0 0 10px;\n    font-size: 24px;\n    line-height: 1.3;\n    color: #111827;\n    font-weight: 700;\n  }\n\n  .ortheon-value-item p {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.8;\n    color: #6b7280;\n  }\n\n  .ortheon-values-center img {\n    width: 160px;\n    max-width: 100%;\n    display: block;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-values-grid {\n      grid-template-columns: 1fr;\n      gap: 50px;\n    }\n\n    .ortheon-values-center {\n      order: -1;\n      text-align: center;\n    }\n\n    .ortheon-values-center img {\n      margin: 0 auto;\n      width: 130px;\n    }\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-values-section {\n      padding: 60px 18px;\n    }\n\n    .ortheon-values-title {\n      margin-bottom: 42px;\n    }\n\n    .ortheon-value-item {\n      gap: 14px;\n    }\n\n    .ortheon-value-icon {\n      width: 60px;\n      height: 60px;\n      min-width: 60px;\n      font-size: 26px;\n    }\n\n    .ortheon-value-item h3 {\n      font-size: 21px;\n    }\n\n    .ortheon-value-item p {\n      font-size: 15px;\n      line-height: 1.7;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-values-column {\n      gap: 28px;\n    }\n\n    .ortheon-value-item {\n      flex-direction: row;\n      align-items: flex-start;\n    }\n\n    .ortheon-values-center img {\n      width: 110px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "custom_liquid_QA3JXj": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-cta-section\">\n  <div class=\"ortheon-cta-container\">\n\n    <div class=\"ortheon-cta-content\">\n\n      <div class=\"ortheon-cta-text\">\n        <h2>Your Posture Journey Starts Here.</h2>\n\n        <p>\n          Join thousands who have already chosen a better way to live.\n        </p>\n\n        <a href=\"https://ortheonposture.com/collections/all\" class=\"ortheon-cta-button\">\n          Shop Now\n        </a>\n      </div>\n\n      <div class=\"ortheon-cta-image\">\n        <img\n          src=\"https://cdn.shopify.com/s/files/1/0000/0000/files/posture-product.png\"\n          alt=\"Posture Corrector\"\n          loading=\"lazy\"\n        >\n      </div>\n\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-cta-section {\n    padding: 70px 24px;\n    background: #ffffff;\n  }\n\n  .ortheon-cta-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .ortheon-cta-content {\n    background: #005b5c;\n    border-radius: 22px;\n    padding: 55px 60px;\n    display: grid;\n    grid-template-columns: 1fr 420px;\n    align-items: center;\n    gap: 50px;\n    overflow: hidden;\n  }\n\n  .ortheon-cta-text h2 {\n    color: #ffffff;\n    font-size: clamp(34px, 4vw, 56px);\n    line-height: 1.15;\n    margin: 0 0 22px;\n    font-weight: 700;\n    max-width: 520px;\n  }\n\n  .ortheon-cta-text p {\n    color: rgba(255,255,255,0.85);\n    font-size: 18px;\n    line-height: 1.8;\n    margin: 0 0 32px;\n    max-width: 500px;\n  }\n\n  .ortheon-cta-button {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    padding: 14px 30px;\n    background: #ffffff;\n    color: #005b5c;\n    text-decoration: none;\n    border-radius: 12px;\n    font-size: 16px;\n    font-weight: 600;\n    transition: 0.3s ease;\n  }\n\n  .ortheon-cta-button:hover {\n    background: #f3f4f6;\n    transform: translateY(-2px);\n  }\n\n  .ortheon-cta-image {\n    text-align: center;\n  }\n\n  .ortheon-cta-image img {\n    width: 100%;\n    max-width: 360px;\n    display: block;\n    margin: 0 auto;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-cta-content {\n      grid-template-columns: 1fr;\n      text-align: center;\n      padding: 50px 40px;\n    }\n\n    .ortheon-cta-text h2,\n    .ortheon-cta-text p {\n      max-width: 100%;\n      margin-left: auto;\n      margin-right: auto;\n    }\n\n    .ortheon-cta-button {\n      margin: 0 auto;\n    }\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-cta-section {\n      padding: 50px 18px;\n    }\n\n    .ortheon-cta-content {\n      padding: 42px 24px;\n      gap: 35px;\n      border-radius: 18px;\n    }\n\n    .ortheon-cta-text h2 {\n      font-size: 34px;\n    }\n\n    .ortheon-cta-text p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n\n    .ortheon-cta-image img {\n      max-width: 260px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-cta-text h2 {\n      font-size: 30px;\n    }\n\n    .ortheon-cta-button {\n      width: 100%;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -904,6 +929,8 @@
     "custom_liquid_aCjiyi",
     "custom_liquid_BCMm4H",
     "custom_liquid_3AJBFL",
-    "custom_liquid_3YnbAn"
+    "custom_liquid_3YnbAn",
+    "custom_liquid_dp3FtB",
+    "custom_liquid_QA3JXj"
   ]
 }
