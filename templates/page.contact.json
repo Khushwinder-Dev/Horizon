@@ -527,193 +527,6 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "group_nzKLdp": {
-                  "type": "group",
-                  "name": "t:names.group",
-                  "settings": {
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "flex-start",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "custom_height": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "background_media": "none",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "placeholder": "",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {
-                    "group_FHgGc9": {
-                      "type": "group",
-                      "name": "t:names.group",
-                      "settings": {
-                        "content_direction": "column",
-                        "vertical_on_mobile": true,
-                        "horizontal_alignment": "flex-start",
-                        "vertical_alignment": "center",
-                        "align_baseline": false,
-                        "horizontal_alignment_flex_direction_column": "flex-start",
-                        "vertical_alignment_flex_direction_column": "center",
-                        "gap": 12,
-                        "width": "fill",
-                        "custom_width": 100,
-                        "width_mobile": "fill",
-                        "custom_width_mobile": 100,
-                        "height": "fit",
-                        "custom_height": 100,
-                        "inherit_color_scheme": true,
-                        "color_scheme": "",
-                        "background_media": "none",
-                        "video_position": "cover",
-                        "background_image_position": "cover",
-                        "border": "none",
-                        "border_width": 1,
-                        "border_opacity": 100,
-                        "border_radius": 0,
-                        "toggle_overlay": false,
-                        "overlay_color": "#00000026",
-                        "overlay_style": "solid",
-                        "gradient_direction": "to top",
-                        "link": "",
-                        "open_in_new_tab": false,
-                        "placeholder": "",
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {
-                        "icon_pNNhdn": {
-                          "type": "icon",
-                          "name": "t:names.icon",
-                          "settings": {
-                            "icon": "chat_bubble",
-                            "width": 40,
-                            "link": "",
-                            "open_in_new_tab": false
-                          },
-                          "blocks": {}
-                        },
-                        "text_8LeJwN": {
-                          "type": "text",
-                          "name": "t:names.heading",
-                          "settings": {
-                            "text": "<h3>Support Team</h3>",
-                            "width": "fit-content",
-                            "max_width": "normal",
-                            "alignment": "left",
-                            "type_preset": "rte",
-                            "font": "var(--font-body--family)",
-                            "font_size": "1rem",
-                            "line_height": "normal",
-                            "letter_spacing": "normal",
-                            "case": "none",
-                            "wrap": "pretty",
-                            "color": "var(--color-foreground)",
-                            "background": false,
-                            "background_color": "#00000026",
-                            "corner_radius": 0,
-                            "padding-block-start": 0,
-                            "padding-block-end": 0,
-                            "padding-inline-start": 0,
-                            "padding-inline-end": 0
-                          },
-                          "blocks": {}
-                        }
-                      },
-                      "block_order": [
-                        "icon_pNNhdn",
-                        "text_8LeJwN"
-                      ]
-                    },
-                    "text_yag9Cy": {
-                      "type": "text",
-                      "name": "t:names.text",
-                      "settings": {
-                        "text": "<p>Our clinical support specialists aim to respond within 4 business hours.<br/><br/></p>",
-                        "width": "fit-content",
-                        "max_width": "normal",
-                        "alignment": "left",
-                        "type_preset": "rte",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "wrap": "pretty",
-                        "color": "var(--color-foreground)",
-                        "background": false,
-                        "background_color": "#00000026",
-                        "corner_radius": 0,
-                        "padding-block-start": 0,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "button_bRMUYc": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Email: ortheonposture@gmail.com",
-                        "link": "mailto:ortheonposture@gmail.com",
-                        "open_in_new_tab": false,
-                        "style_class": "link",
-                        "width": "fit-content",
-                        "custom_width": 100,
-                        "width_mobile": "fit-content",
-                        "custom_width_mobile": 100
-                      },
-                      "blocks": {}
-                    },
-                    "button_wHrKAD": {
-                      "type": "button",
-                      "name": "t:names.button",
-                      "settings": {
-                        "label": "Contact Number: +1 559 500 6271",
-                        "link": "tel:+15595006271",
-                        "open_in_new_tab": false,
-                        "style_class": "link",
-                        "width": "fit-content",
-                        "custom_width": 100,
-                        "width_mobile": "fit-content",
-                        "custom_width_mobile": 100
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "group_FHgGc9",
-                    "text_yag9Cy",
-                    "button_bRMUYc",
-                    "button_wHrKAD"
-                  ]
-                },
                 "group_fceXKH": {
                   "type": "group",
                   "name": "t:names.group",
@@ -758,7 +571,7 @@
                       "type": "custom-liquid",
                       "name": "t:names.custom_liquid",
                       "settings": {
-                        "custom_liquid": "<style>\n  .contact-map {\n    width: 45vw;\n  }\n\n  @media (max-width: 768px) {\n    .contact-map {\n      width: 100%;\n    }\n    div:has(#contact-map) {\n      width: -webkit-fill-available;\n    }\n  }\n</style>\n\n<div id=\"contact-map\" class=\"contact-map\">\n  <iframe\n    src=\"https://www.google.com/maps?q=Fresno%20State%20University,%20Fresno,%20California,%20USA&output=embed\"\n    width=\"100%\"\n    height=\"400\"\n    style=\"border:0; display:block;\"\n    allowfullscreen=\"\"\n    loading=\"lazy\">\n  </iframe>\n</div>"
+                        "custom_liquid": "<section class=\"ortheon-location-section\">\n  <div class=\"ortheon-location-container\">\n    <h2>Our Location</h2>\n\n    <div class=\"ortheon-location-info\">\n      <div class=\"ortheon-location-row\">\n        <span>📍</span>\n        <p>\n          California State University, Fresno<br>\n          5241 N Maple Ave, Fresno, CA 93740, USA\n        </p>\n      </div>\n\n      <div class=\"ortheon-location-row\">\n        <span>✉️</span>\n        <p>\n          <a href=\"mailto:ortheonposture@gmail.com\">ortheonposture@gmail.com</a>\n        </p>\n      </div>\n\n      <div class=\"ortheon-location-row\">\n        <span>☎️</span>\n        <p>\n          <a href=\"tel:+15595006271\">+1 559 500 6271</a>\n        </p>\n      </div>\n    </div>\n\n    <div class=\"ortheon-map-box\">\n      <iframe\n        src=\"https://www.google.com/maps?q=California%20State%20University%20Fresno%205241%20N%20Maple%20Ave%20Fresno%20CA%2093740%20USA&output=embed\"\n        width=\"100%\"\n        height=\"380\"\n        style=\"border:0;\"\n        allowfullscreen=\"\"\n        loading=\"lazy\">\n      </iframe>\n    </div>\n  </div>\n</section>\n\n<style>\n  .ortheon-location-section {\n    background: #ffffff;\n    padding: 70px 24px;\n  }\n\n  .ortheon-location-container {\n    max-width: 720px;\n    margin: 0 auto;\n  }\n\n  .ortheon-location-container h2 {\n    font-size: clamp(28px, 4vw, 40px);\n    font-weight: 800;\n    color: #111827;\n    margin: 0 0 28px;\n  }\n\n  .ortheon-location-info {\n    display: flex;\n    flex-direction: column;\n    gap: 22px;\n    margin-bottom: 32px;\n  }\n\n  .ortheon-location-row {\n    display: flex;\n    align-items: flex-start;\n    gap: 16px;\n  }\n\n  .ortheon-location-row span {\n    width: 34px;\n    height: 34px;\n    min-width: 34px;\n    border-radius: 50%;\n    background: #e8f4f4;\n    color: #005b5c;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n  }\n\n  .ortheon-location-row p {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.7;\n    color: #374151;\n  }\n\n  .ortheon-location-row a {\n    color: #005b5c;\n    text-decoration: none;\n    font-weight: 600;\n  }\n\n  .ortheon-map-box {\n    width: 100%;\n    border-radius: 18px;\n    overflow: hidden;\n    border: 1px solid #e5e7eb;\n    box-shadow: 0 8px 24px rgba(0,0,0,0.06);\n  }\n\n  .ortheon-map-box iframe {\n    display: block;\n    width: 100%;\n    height: 380px;\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-location-section {\n      padding: 50px 18px;\n    }\n\n    .ortheon-location-container {\n      max-width: 100%;\n    }\n\n    .ortheon-map-box iframe {\n      height: 320px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-location-container h2 {\n      font-size: 28px;\n    }\n\n    .ortheon-location-row p {\n      font-size: 15px;\n    }\n\n    .ortheon-map-box iframe {\n      height: 280px;\n    }\n  }\n</style>"
                       },
                       "blocks": {}
                     }
@@ -769,7 +582,6 @@
                 }
               },
               "block_order": [
-                "group_nzKLdp",
                 "group_fceXKH"
               ]
             },
