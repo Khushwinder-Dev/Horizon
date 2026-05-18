@@ -850,12 +850,24 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "custom_liquid_aCjiyi": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-about-hero\">\n  <div class=\"ortheon-about-hero__content\">\n    <div class=\"ortheon-about-hero__text\">\n      <p class=\"ortheon-about-hero__label\">About Us</p>\n      <h1>Better Posture.<br>Better Life.</h1>\n      <p>\n        At Ortheon, we believe that good posture is the foundation of a healthy,\n        confident life. Our mission is to help you move, feel, and live better every day.\n      </p>\n    </div>\n\n    <div class=\"ortheon-about-hero__image\">\n      <img\n        src=\"https://ortheonposture.com/cdn/shop/files/unnamed_b5a8dbbe-3299-407f-94b0-3dcf3f2f06f1.png\"\n        alt=\"Ortheon posture support\"\n        loading=\"lazy\"\n      >\n    </div>\n  </div>\n</section>\n\n<style>\n  .ortheon-about-hero {\n    background: #005b5c;\n    padding: 56px 28px;\n    color: #ffffff;\n  }\n\n  .ortheon-about-hero__content {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 0.9fr;\n    align-items: center;\n    gap: 60px;\n  }\n\n  .ortheon-about-hero__label {\n    font-size: 18px;\n    margin: 0 0 18px;\n    opacity: 0.95;\n  }\n\n  .ortheon-about-hero h1 {\n    font-size: clamp(42px, 5vw, 72px);\n    line-height: 1.08;\n    margin: 0 0 24px;\n    font-weight: 800;\n    color: #ffffff;\n  }\n\n  .ortheon-about-hero__text > p:last-child {\n    max-width: 520px;\n    font-size: clamp(16px, 1.4vw, 20px);\n    line-height: 1.6;\n    margin: 0;\n    color: #ffffff;\n  }\n\n  .ortheon-about-hero__image img {\n    width: 100%;\n    height: 440px;\n    object-fit: cover;\n    border-radius: 14px;\n    display: block;\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-about-hero {\n      padding: 42px 18px;\n    }\n\n    .ortheon-about-hero__content {\n      grid-template-columns: 1fr;\n      gap: 32px;\n    }\n\n    .ortheon-about-hero h1 {\n      font-size: 42px;\n    }\n\n    .ortheon-about-hero__image img {\n      height: 340px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-about-hero h1 {\n      font-size: 34px;\n    }\n\n    .ortheon-about-hero__image img {\n      height: 280px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "main",
     "section_QWedcy",
     "section_rjYEGD",
-    "section_4mxnhV"
+    "section_4mxnhV",
+    "custom_liquid_aCjiyi"
   ]
 }
