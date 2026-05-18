@@ -861,6 +861,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_BCMm4H": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-story-section\">\n  <div class=\"ortheon-story-container\">\n    \n    <div class=\"ortheon-story-text\">\n      <h2>Our Story</h2>\n\n      <p>\n        Ortheon was born out of a simple idea: posture solutions should be\n        effective, comfortable, and designed for real life.\n      </p>\n\n      <p>\n        After years of research, testing, and collaboration with medical\n        professionals, we created posture support products that combine\n        science, innovation, and everyday comfort.\n      </p>\n\n      <p>\n        Today, thousands of people around the world trust Ortheon to support\n        their posture and improve their quality of life.\n      </p>\n    </div>\n\n    <div class=\"ortheon-story-image\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0740/7668/4444/files/vertical_composition__ultra_realistic__cinematic_202605061114.jpg?v=1778250394\"\n        alt=\"Posture support product\"\n        loading=\"lazy\"\n      >\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-story-section {\n    background: #ffffff;\n    padding: 70px 28px;\n  }\n\n  .ortheon-story-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1.1fr 0.9fr;\n    align-items: center;\n    gap: 70px;\n  }\n\n  .ortheon-story-text h2 {\n    font-size: clamp(32px, 4vw, 48px);\n    line-height: 1.1;\n    margin: 0 0 24px;\n    color: #111111;\n    font-weight: 800;\n  }\n\n  .ortheon-story-text p {\n    font-size: 16px;\n    line-height: 1.8;\n    color: #4b5563;\n    margin: 0 0 22px;\n    max-width: 620px;\n  }\n\n  .ortheon-story-text p:last-child {\n    margin-bottom: 0;\n  }\n\n  .ortheon-story-image img {\n    width: 100%;\n    height: 340px;\n    object-fit: cover;\n    object-position: center;\n    border-radius: 14px;\n    display: block;\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-story-section {\n      padding: 50px 18px;\n    }\n\n    .ortheon-story-container {\n      grid-template-columns: 1fr;\n      gap: 32px;\n    }\n\n    .ortheon-story-text h2 {\n      font-size: 34px;\n    }\n\n    .ortheon-story-text p {\n      font-size: 15px;\n      line-height: 1.7;\n    }\n\n    .ortheon-story-image img {\n      height: 300px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-story-section {\n      padding: 40px 16px;\n    }\n\n    .ortheon-story-text h2 {\n      font-size: 30px;\n    }\n\n    .ortheon-story-image img {\n      height: 240px;\n      border-radius: 12px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -868,6 +879,7 @@
     "section_QWedcy",
     "section_rjYEGD",
     "section_4mxnhV",
-    "custom_liquid_aCjiyi"
+    "custom_liquid_aCjiyi",
+    "custom_liquid_BCMm4H"
   ]
 }
