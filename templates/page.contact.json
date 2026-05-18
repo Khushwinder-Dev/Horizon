@@ -444,6 +444,42 @@
         "padding-block-end": 40
       }
     },
+    "hero_t773nL": {
+      "type": "hero",
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_May_18_2026_06_39_19_PM.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": true,
+        "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/ChatGPT_Image_May_18_2026_06_41_00_PM.png",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "full-width",
+        "section_height": "custom",
+        "section_height_custom": 100,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "section_zqPkGw": {
       "type": "section",
       "blocks": {
@@ -852,40 +888,15 @@
         "padding-block-end": 48
       }
     },
-    "hero_t773nL": {
-      "type": "hero",
-      "name": "t:names.hero",
+    "custom_liquid_QagKkW": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
       "settings": {
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/ChatGPT_Image_May_18_2026_06_39_19_PM.png",
-        "media_type_2": "image",
-        "stack_media_on_mobile": false,
-        "custom_mobile_media": true,
-        "media_type_1_mobile": "image",
-        "image_1_mobile": "shopify://shop_images/ChatGPT_Image_May_18_2026_06_41_00_PM.png",
-        "media_type_2_mobile": "image",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "full-width",
-        "section_height": "custom",
-        "section_height_custom": 100,
-        "color_scheme": "scheme-5",
-        "toggle_overlay": true,
-        "overlay_color": "#00000026",
-        "overlay_style": "gradient",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40
+        "custom_liquid": "<section class=\"ortheon-trust-strip\">\n  <div class=\"ortheon-trust-container\">\n\n    <div class=\"ortheon-trust-item\">\n      <div class=\"ortheon-trust-icon\">🛡️</div>\n      <div>\n        <h3>Secure Payments</h3>\n        <p>100% safe & secure checkout.</p>\n      </div>\n    </div>\n\n    <div class=\"ortheon-trust-item\">\n      <div class=\"ortheon-trust-icon\">🚚</div>\n      <div>\n        <h3>Fast Shipping</h3>\n        <p>Quick delivery on all orders.</p>\n      </div>\n    </div>\n\n    <div class=\"ortheon-trust-item\">\n      <div class=\"ortheon-trust-icon\">↻</div>\n      <div>\n        <h3>Easy Returns</h3>\n        <p>Hassle-free returns within 30 days.</p>\n      </div>\n    </div>\n\n    <div class=\"ortheon-trust-item\">\n      <div class=\"ortheon-trust-icon\">🏅</div>\n      <div>\n        <h3>Premium Quality</h3>\n        <p>Ergonomic design, built to last.</p>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n  .ortheon-trust-strip {\n    background: #f3fbfb;\n    padding: 34px 24px;\n  }\n\n  .ortheon-trust-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 0;\n  }\n\n  .ortheon-trust-item {\n    display: flex;\n    align-items: center;\n    gap: 18px;\n    padding: 0 28px;\n    border-right: 1px solid rgba(0, 91, 92, 0.18);\n  }\n\n  .ortheon-trust-item:last-child {\n    border-right: none;\n  }\n\n  .ortheon-trust-icon {\n    width: 70px;\n    height: 70px;\n    min-width: 70px;\n    border-radius: 50%;\n    background: #005b5c;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 30px;\n  }\n\n  .ortheon-trust-item h3 {\n    margin: 0 0 6px;\n    font-size: 19px;\n    font-weight: 800;\n    color: #111827;\n    line-height: 1.2;\n  }\n\n  .ortheon-trust-item p {\n    margin: 0;\n    font-size: 15px;\n    line-height: 1.45;\n    color: #374151;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-trust-container {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 28px 0;\n    }\n\n    .ortheon-trust-item:nth-child(2) {\n      border-right: none;\n    }\n  }\n\n  @media (max-width: 640px) {\n    .ortheon-trust-strip {\n      padding: 34px 18px;\n    }\n\n    .ortheon-trust-container {\n      grid-template-columns: 1fr;\n      gap: 26px;\n    }\n\n    .ortheon-trust-item {\n      border-right: none;\n      padding: 0;\n    }\n\n    .ortheon-trust-icon {\n      width: 62px;\n      height: 62px;\n      min-width: 62px;\n      font-size: 26px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     }
   },
@@ -894,6 +905,7 @@
     "section_LbHwwa",
     "hero_t773nL",
     "section_zqPkGw",
-    "section_C4wmpj"
+    "section_C4wmpj",
+    "custom_liquid_QagKkW"
   ]
 }
