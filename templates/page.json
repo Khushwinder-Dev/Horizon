@@ -872,6 +872,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_3AJBFL": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-mission-section\">\n  <div class=\"ortheon-mission-container\">\n\n    <h2 class=\"ortheon-mission-title\">Our Mission</h2>\n\n    <div class=\"ortheon-mission-grid\">\n\n      <div class=\"ortheon-mission-card\">\n        <div class=\"ortheon-mission-icon\">\n          👤\n        </div>\n\n        <h3>Improve Posture</h3>\n\n        <p>\n          Help people build better posture habits for long-term health.\n        </p>\n      </div>\n\n      <div class=\"ortheon-mission-card\">\n        <div class=\"ortheon-mission-icon\">\n          ♡\n        </div>\n\n        <h3>Relieve Pain</h3>\n\n        <p>\n          Reduce neck, back, and shoulder pain caused by poor posture.\n        </p>\n      </div>\n\n      <div class=\"ortheon-mission-card\">\n        <div class=\"ortheon-mission-icon\">\n          🛡\n        </div>\n\n        <h3>Premium Quality</h3>\n\n        <p>\n          Deliver high-quality, durable, and comfortable posture solutions.\n        </p>\n      </div>\n\n      <div class=\"ortheon-mission-card\">\n        <div class=\"ortheon-mission-icon\">\n          👤\n        </div>\n\n        <h3>Empower Lives</h3>\n\n        <p>\n          Enable everyone to live a more active, confident, and pain-free life.\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  .ortheon-mission-section {\n    padding: 70px 24px;\n    background: #f8f8f8;\n  }\n\n  .ortheon-mission-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .ortheon-mission-title {\n    text-align: center;\n    font-size: clamp(32px, 4vw, 48px);\n    font-weight: 700;\n    color: #111827;\n    margin: 0 0 50px;\n  }\n\n  .ortheon-mission-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 24px;\n  }\n\n  .ortheon-mission-card {\n    background: #ffffff;\n    border-radius: 18px;\n    padding: 38px 28px;\n    text-align: center;\n    transition: 0.3s ease;\n    box-shadow: 0 4px 18px rgba(0,0,0,0.04);\n  }\n\n  .ortheon-mission-card:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 10px 30px rgba(0,0,0,0.08);\n  }\n\n  .ortheon-mission-icon {\n    width: 72px;\n    height: 72px;\n    background: #005b5c;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 22px;\n    font-size: 30px;\n    color: #ffffff;\n  }\n\n  .ortheon-mission-card h3 {\n    font-size: 22px;\n    font-weight: 700;\n    color: #111827;\n    margin: 0 0 14px;\n  }\n\n  .ortheon-mission-card p {\n    font-size: 16px;\n    line-height: 1.8;\n    color: #6b7280;\n    margin: 0;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-mission-grid {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-mission-section {\n      padding: 50px 18px;\n    }\n\n    .ortheon-mission-grid {\n      gap: 18px;\n    }\n\n    .ortheon-mission-card {\n      padding: 30px 22px;\n    }\n\n    .ortheon-mission-card h3 {\n      font-size: 20px;\n    }\n\n    .ortheon-mission-card p {\n      font-size: 15px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-mission-grid {\n      grid-template-columns: 1fr;\n    }\n\n    .ortheon-mission-title {\n      margin-bottom: 32px;\n    }\n\n    .ortheon-mission-card {\n      padding: 28px 20px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -880,6 +891,7 @@
     "section_rjYEGD",
     "section_4mxnhV",
     "custom_liquid_aCjiyi",
-    "custom_liquid_BCMm4H"
+    "custom_liquid_BCMm4H",
+    "custom_liquid_3AJBFL"
   ]
 }
