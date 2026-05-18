@@ -883,6 +883,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_liquid_3YnbAn": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"ortheon-why-section\">\n  <div class=\"ortheon-why-container\">\n\n    <h2 class=\"ortheon-why-title\">Why Choose Ortheon?</h2>\n\n    <div class=\"ortheon-why-grid\">\n\n      <div class=\"ortheon-why-card\">\n        <div class=\"ortheon-why-icon\">\n          🧍\n        </div>\n\n        <h3>Ergonomically Designed</h3>\n\n        <p>\n          Made with medical-grade support for maximum comfort and posture correction.\n        </p>\n      </div>\n\n      <div class=\"ortheon-why-card\">\n        <div class=\"ortheon-why-icon\">\n          🤍\n        </div>\n\n        <h3>Comfort You Can Wear</h3>\n\n        <p>\n          Lightweight and breathable materials designed for all-day comfort.\n        </p>\n      </div>\n\n      <div class=\"ortheon-why-card\">\n        <div class=\"ortheon-why-icon\">\n          🏅\n        </div>\n\n        <h3>Trusted by Thousands</h3>\n\n        <p>\n          Loved by customers worldwide for delivering visible posture improvement.\n        </p>\n      </div>\n\n      <div class=\"ortheon-why-card\">\n        <div class=\"ortheon-why-icon\">\n          🧪\n        </div>\n\n        <h3>Backed by Science</h3>\n\n        <p>\n          Developed using research-driven support and ergonomic innovation.\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  .ortheon-why-section {\n    background: #005b5c;\n    padding: 80px 24px;\n    overflow: hidden;\n  }\n\n  .ortheon-why-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .ortheon-why-title {\n    text-align: center;\n    color: #ffffff;\n    font-size: clamp(32px, 4vw, 50px);\n    font-weight: 700;\n    margin: 0 0 55px;\n    line-height: 1.2;\n  }\n\n  .ortheon-why-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 26px;\n  }\n\n  .ortheon-why-card {\n    text-align: center;\n    color: #ffffff;\n    padding: 10px;\n  }\n\n  .ortheon-why-icon {\n    width: 84px;\n    height: 84px;\n    margin: 0 auto 24px;\n    border-radius: 50%;\n    background: rgba(255,255,255,0.12);\n    backdrop-filter: blur(6px);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 34px;\n    color: #ffffff;\n    border: 1px solid rgba(255,255,255,0.12);\n  }\n\n  .ortheon-why-card h3 {\n    font-size: 24px;\n    line-height: 1.4;\n    font-weight: 700;\n    margin: 0 0 16px;\n    color: #ffffff;\n  }\n\n  .ortheon-why-card p {\n    font-size: 16px;\n    line-height: 1.8;\n    color: rgba(255,255,255,0.82);\n    margin: 0 auto;\n    max-width: 260px;\n  }\n\n  @media (max-width: 1024px) {\n    .ortheon-why-grid {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 40px 24px;\n    }\n  }\n\n  @media (max-width: 768px) {\n    .ortheon-why-section {\n      padding: 60px 18px;\n    }\n\n    .ortheon-why-title {\n      margin-bottom: 40px;\n    }\n\n    .ortheon-why-card h3 {\n      font-size: 21px;\n    }\n\n    .ortheon-why-card p {\n      font-size: 15px;\n      line-height: 1.7;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .ortheon-why-grid {\n      grid-template-columns: 1fr;\n      gap: 42px;\n    }\n\n    .ortheon-why-icon {\n      width: 76px;\n      height: 76px;\n      font-size: 30px;\n    }\n\n    .ortheon-why-card h3 {\n      font-size: 20px;\n    }\n  }\n</style>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -892,6 +903,7 @@
     "section_4mxnhV",
     "custom_liquid_aCjiyi",
     "custom_liquid_BCMm4H",
-    "custom_liquid_3AJBFL"
+    "custom_liquid_3AJBFL",
+    "custom_liquid_3YnbAn"
   ]
 }
